@@ -28,7 +28,4 @@ NLP (LLMs & reasoning), Information Retrieval, Machine Learning, Deep Learning, 
 Transferring the reasoning capability of strong LLMs to weaker models to accurately reproduce multi-step reasoning under limited compute. Techniques include prompt design, reasoning pattern extraction, and knowledge-distillation-style training.  
 *Keywords:* CoT, reasoning transfer, distillation, retrieval-augmented evaluation.
 
----
 
-## Contact
-Email: rzhou33@jh.edu · GitHub: <a href="https://github.com/RongkunZ">@RongkunZ</a> · Full CV: <a href="/files/CV_RongkunZhou.pdf">PDF</a>
