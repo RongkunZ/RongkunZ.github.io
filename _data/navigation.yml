@@ -9,8 +9,6 @@
 
 main:
   main:
-  - title: "Ongoing Research"
-    url: /ongoing-research/
   - title: "Research Experience"
     url: /research-experience/
   - title: "Industry Experience"
