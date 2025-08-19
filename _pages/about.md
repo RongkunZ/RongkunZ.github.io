@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: single
 title: "Rongkun Zhou"
 permalink: /
 author_profile: true
@@ -7,7 +7,7 @@ author_profile: true
 
 <!-- ===== Self Summary ===== -->
 **Self Summary**  
-Master’s student in Computer Science at Johns Hopkins University. I work on NLP/ML with a focus on large-language-model reasoning and retrieval. My experience spans academic research and applied modeling (ads recommendation, logistics analytics, anomaly detection). I aim to build efficient, explainable, and robust AI systems.
+Master’s student in Computer Science at Johns Hopkins University. I work on NLP/ML with a focus on large-language-model reasoning and retrieval. I aim to build efficient, explainable, and robust AI systems.
 
 <!-- ===== Research Interests ===== -->
 **Research Interests**  
@@ -26,6 +26,5 @@ NLP (LLMs & reasoning), Information Retrieval, Machine Learning, Deep Learning, 
 
 **Chain-of-Thought Reasoning Transfer (JHU)** *(2025–Present)*  
 Transferring the reasoning capability of strong LLMs to weaker models to accurately reproduce multi-step reasoning under limited compute. Techniques include prompt design, reasoning pattern extraction, and knowledge-distillation-style training.  
-*Keywords:* CoT, reasoning transfer, distillation, retrieval-augmented evaluation.
 
 
