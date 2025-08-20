@@ -22,7 +22,7 @@ I aim to develop methods that improve structured reasoning, question answering, 
 - **Focus**: Exploring how large language models perform structured reasoning over table data  
 - **Goal**: Improve the reliability and logical consistency of model-generated reasoning traces in tabular QA tasks  
 
-### 🎮 Debugging Reasoning in Text-Based Games (2025.08–Present)  
+### 🎮 Debugging Reasoning in Text Games (2025.08–Present)  
 - **Advisor**: Prof. Ziang Xiao, Johns Hopkins University  
 - **Dataset/Framework**: TALES dataset, MindCoder  
 - **Focus**: Investigating where language agents fail in multi-step reasoning and decision-making during interactive fiction scenarios  
