@@ -12,8 +12,8 @@ site_theme               : "default"
 title                    : "Rongkun Zhou"
 title_separator          : "-"
 name                     : &name "Rongkun Zhou"
-description              : &description "Master's student in Computer Science at Johns Hopkins University, focusing on Machine Learning, NLP."
-url                      : "https://rongkunz.github.io"
+description              : &description ""
+url                      : 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "RongkunZ/RongkunZ.github.io"
 
@@ -25,10 +25,10 @@ author:
   avatar           : "profile.png"
   name             : "Rongkun Zhou"
   pronouns         : # example: "she/her"  
-  bio              : "Master's student in Computer Science at Johns Hopkins University, focusing on Machine Learning, NLP"
+  bio              : "Turning ideas into impact."
   location         : "Maryland, USA"
   employer         : "Johns Hopkins University"
-  uri              : "https://rongkunz.github.io" 
+  uri              :  # URL
   email            : "rzhou33@jh.edu"
 
   # Academic websites
