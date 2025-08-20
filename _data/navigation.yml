@@ -8,7 +8,6 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  main:
   - title: "Research Experience"
     url: /research-experience/
   - title: "Industry Experience"
