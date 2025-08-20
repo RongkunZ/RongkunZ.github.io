@@ -15,7 +15,7 @@ I aim to develop methods that improve structured reasoning, question answering, 
 - **University of Minnesota – Twin Cities** — B.S. in Mathematics, Minor in Computer Science & Statistics *(Sept 2020 – Dec 2023)*
 
 ## 🔬 Ongoing Research <a id="ongoing"></a>
-<em>More projects on the <a href="/research-experience/">Research Experience</a> page.</em>
+<em>More projects on the <a href="/research-project/">Research&Project</a> page.</em>
 
 ### 🧠 Reasoning over Tabular Data  
 *Research Assistant with Prof. Philipp Koehn, Johns Hopkins University — 2025.07–Present*
