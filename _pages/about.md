@@ -1,15 +1,14 @@
 ---
-layout: splash
+layout: single
 title: "Rongkun Zhou"
 permalink: /
 author_profile: true
 ---
 
 <!-- ===== Self Summary ===== -->
-I'm Rongkun Zhou, currently a Master's student in Computer Science at Johns Hopkins University.
-broadly interested in natural language processing and machine learning, especially the reasoning capabilities and factual consistency of large language models.  
-My current focus is on improving the faithfulness, explainability, and robustness of NLP systems in tasks like question answering, retrieval, and reasoning over structured data.  
-I aim to develop models that generate not only fluent responses but also outputs grounded in knowledge sources and reliable in real-world scenarios.
+I am Rongkun Zhou, a Master’s student in Computer Science at Johns Hopkins University.
+My research interests lie in natural language processing and machine learning, with a focus on the reasoning capabilities of large language models. 
+I aim to develop methods that improve structured reasoning, question answering, and information retrieval, ensuring that model outputs are not only fluent but also logically consistent, interpretable, and reliable in real-world applications.
 
 ## 🎓 Education
 - **Johns Hopkins University** — M.S. in Computer Science *(Expected Dec 2025)*  
@@ -21,18 +20,14 @@ I aim to develop models that generate not only fluent responses but also outputs
 ### 🧠 Reasoning over Tabular Data  
 *Research Assistant with Prof. Philipp Koehn, Johns Hopkins University — 2025.07–Present*
 Exploring how large language models perform structured reasoning over table data.  
-We aim to develop and evaluate methods that improve the reliability, transparency, and factual grounding of model-generated reasoning traces in tabular QA tasks.
-
----
+We aim to improve the reliability and logical consistency of model-generated reasoning traces in tabular QA tasks.
 
 ### 🎮 Debugging Reasoning Failures in Text-Based Games  
 *Research Assistant with Prof. Ziang Xiao, Johns Hopkins University — 2025.08–Present*
-Working on the TALES dataset and using the MindCoder framework to investigate where language agents fail to reason effectively during interactive fiction scenarios.  
-This project identifies reasoning bottlenecks and stuck states by querying model trajectories and responses, with the goal of guiding model behavior through targeted interventions and improving agent robustness.
-
----
+Working on the TALES dataset and using the MindCoder framework to investigate where language agents fail in multi-step reasoning and decision-making during interactive fiction scenarios.  
+This project identifies reasoning bottlenecks and stuck states by analyzing model trajectories, with the goal of guiding behavior through targeted interventions and improving agent robustness.
 
 ### 🔐 Detecting Steganography in LLM Chain-of-Thought  
-*Research Assistant with William Walden, HLTCOE, JHU — 2024.05–Present*  
+*Research Assistant with William Walden, HLTCOE, JHU — 2025.05–Present*  
 Investigating how reasoning traces in LLM outputs might covertly encode information (textual steganography).  
-This project aims to detect and mitigate hidden signals that may enable malicious coordination or model misuse, focusing on interventions aligned with knowledge distillation and output control.
+This project aims to detect and mitigate hidden signals that may enable malicious coordination or model misuse, focusing on interventions such as knowledge distillation and controlled decoding to improve model safety, transparency, and trustworthiness.
