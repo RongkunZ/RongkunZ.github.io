@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Research Experience"
-permalink: /research-experience/
+title: "Research&Project"
+permalink: /research-project/
 sidebar:
   nav: "main"
 ---
