@@ -6,8 +6,6 @@ author_profile: true
 classes: wide
 ---
 
-# Gallery
-
 ## Travel
 
 ![Japan Trip](/images/gallery/japan1.jpg)
