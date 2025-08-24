@@ -1,13 +1,19 @@
-{% comment %} --- Publications page (custom render, no title links) --- {% endcomment %}
+---
+layout: single
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
 
 {% include base_path %}
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">
-    You can also find my articles on <a href="{{site.author.googlescholar}}">Google Scholar</a>.
-  </div>
+<div class="wordwrap">
+  You can also find my articles on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.
+</div>
 {% endif %}
 
+{% comment %} Group publications by year, newest first {% endcomment %}
 {% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "p", "p.date | date: '%Y'" %}
 
 {% for group in pubs_by_year %}
