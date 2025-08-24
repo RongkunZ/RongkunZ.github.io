@@ -5,51 +5,29 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% include base_path %}
-
-{% assign pubs = site.publications | sort: "date" | reverse %}
-{% assign groups = pubs | group_by_exp: "p", "p.date | date: '%Y'" %}
-
-{% for g in groups %}
-### {{ g.name }}
-
-{% for p in g.items %}
-<!-- 标题（有 paperurl 就用它，没有就用 arxiv） -->
-{% assign title_href = p.paperurl | default: p.arxiv | default: p.url %}
-**[{{ p.title }}]({{ title_href }})**
-
-<!-- 作者：你的名字自动加粗 -->
-{% assign me = site.name | downcase %}
-{% capture author_line %}
-  {% for a in p.authors %}
-    {% assign a_d = a | downcase %}
-    {% assign is_me = false %}
-    {% if a_d == me %}{% assign is_me = true %}{% endif %}
-    {% for alias in site.author.aliases %}
-      {% if a_d == alias | downcase %}{% assign is_me = true %}{% endif %}
-    {% endfor %}
-    {% if forloop.first == false %}, {% endif %}
-    {% if is_me %}**{{ a }}**{% else %}{{ a }}{% endif %}
-  {% endfor %}
-{% endcapture %}
-{{ author_line | strip }}
-
-<!-- venue + 年份（斜体） -->
-{% if p.venue %}
-*{{ p.venue }}, {{ p.date | date: "%Y" }}*
+{% if site.author.googlescholar %}
+<div class="wordwrap">
+  You can also find my articles on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.
+</div>
 {% endif %}
 
-<!-- 链接：arXiv / Paper / Code，有哪个就出哪个，用斜杠分隔 -->
-{% capture linkline %}{% endcapture %}
-{% if p.arxiv %}{% capture linkline %}{{ linkline }}[arXiv]({{ p.arxiv }}){% endcapture %}{% endif %}
-{% if p.paperurl %}{% if linkline != "" %}{% capture linkline %}{{ linkline }} / {% endcapture %}{% endif %}
-{% capture linkline %}{{ linkline }}[Paper]({{ p.paperurl }}){% endcapture %}{% endif %}
-{% if p.code %}{% if linkline != "" %}{% capture linkline %}{{ linkline }} / {% endcapture %}{% endif %}
-{% capture linkline %}{{ linkline }}[Code]({{ p.code }}){% endcapture %}{% endif %}
-{% if linkline != "" %}
-{{ linkline }}
-{% endif %}
+{% assign pubs = site.publications | sort: 'date' | reverse %}
 
-{% endfor %}
+{% assign current_year = "" %}
+{% for p in pubs %}
+  {% assign y = p.date | date: "%Y" %}
+  {% if y != current_year %}
+    {% unless forloop.first %}<br/>{% endunless %}
+    <h2>{{ y }}</h2>
+    {% assign current_year = y %}
+  {% endif %}
 
+  <p style="margin-bottom:0.25rem;">
+    <a href="{{ p.paperurl | default: p.url }}"><strong>{{ p.title }}</strong></a>
+  </p>
+
+  <!-- render the markdown body you put below the front matter -->
+  <div class="pub-body" style="margin-top:0.15rem; margin-bottom:1rem;">
+    {{ p.content | markdownify }}
+  </div>
 {% endfor %}
