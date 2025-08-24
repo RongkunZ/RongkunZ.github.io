@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <!-- ===== Self Summary ===== -->
-I am Rongkun Zhou, a Master’s student in Computer Science at [Johns Hopkins University](https://www.jhu.edu/).
+I am currently a Master’s student in Computer Science at [Johns Hopkins University](https://www.jhu.edu/).
 
 My research interests lie in natural language processing and machine learning, with a focus on the reasoning capabilities of large language models. 
 
