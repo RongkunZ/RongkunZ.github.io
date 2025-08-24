@@ -7,12 +7,27 @@ author_profile: true
 
 {% if site.author.googlescholar %}
   <div class="wordwrap">
-    You can also find my articles on <a href="{{site.author.googlescholar}}">Google Scholar</a>.
+    You can also find my articles on 
+    <a href="{{site.author.googlescholar}}">Google Scholar</a>.
   </div>
 {% endif %}
 
 {% include base_path %}
 
+{% assign current_year = "" %}
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% assign year = post.date | date: "%Y" %}
+  {% if year != current_year %}
+  <h2>{{ year }}</h2>
+  {% assign current_year = year %}
+  {% endif %}
+
+  <p>
+    <strong>{{ post.title }}</strong><br>
+    {{ post.authors }}<br>
+    <em>{{ post.venue }}</em>, {{ year }}<br>
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl }}">Paper</a>
+    {% endif %}
+  </p>
 {% endfor %}
