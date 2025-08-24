@@ -10,12 +10,16 @@
 main:
   - title: "Research&Project"
     url: /research-project/
+    
   - title: "Industry Experience"
     url: /industry-experience/
+    
   - title: "Publications"
     url: /publications/
+    
   - title: "CV"
     url: /cv/
+    
   - title: "Gallery"
     url: /gallery/
  
