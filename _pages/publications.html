@@ -5,29 +5,51 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">
-    You can also find my articles on 
-    <a href="{{site.author.googlescholar}}">Google Scholar</a>.
-  </div>
-{% endif %}
-
 {% include base_path %}
 
-{% assign current_year = "" %}
-{% for post in site.publications reversed %}
-  {% assign year = post.date | date: "%Y" %}
-  {% if year != current_year %}
-  <h2>{{ year }}</h2>
-  {% assign current_year = year %}
-  {% endif %}
+{% assign pubs = site.publications | sort: "date" | reverse %}
+{% assign groups = pubs | group_by_exp: "p", "p.date | date: '%Y'" %}
 
-  <p>
-    <strong>{{ post.title }}</strong><br>
-    {{ post.authors }}<br>
-    <em>{{ post.venue }}</em>, {{ year }}<br>
-    {% if post.paperurl %}
-      <a href="{{ post.paperurl }}">Paper</a>
-    {% endif %}
-  </p>
+{% for g in groups %}
+### {{ g.name }}
+
+{% for p in g.items %}
+<!-- 标题（有 paperurl 就用它，没有就用 arxiv） -->
+{% assign title_href = p.paperurl | default: p.arxiv | default: p.url %}
+**[{{ p.title }}]({{ title_href }})**
+
+<!-- 作者：你的名字自动加粗 -->
+{% assign me = site.name | downcase %}
+{% capture author_line %}
+  {% for a in p.authors %}
+    {% assign a_d = a | downcase %}
+    {% assign is_me = false %}
+    {% if a_d == me %}{% assign is_me = true %}{% endif %}
+    {% for alias in site.author.aliases %}
+      {% if a_d == alias | downcase %}{% assign is_me = true %}{% endif %}
+    {% endfor %}
+    {% if forloop.first == false %}, {% endif %}
+    {% if is_me %}**{{ a }}**{% else %}{{ a }}{% endif %}
+  {% endfor %}
+{% endcapture %}
+{{ author_line | strip }}
+
+<!-- venue + 年份（斜体） -->
+{% if p.venue %}
+*{{ p.venue }}, {{ p.date | date: "%Y" }}*
+{% endif %}
+
+<!-- 链接：arXiv / Paper / Code，有哪个就出哪个，用斜杠分隔 -->
+{% capture linkline %}{% endcapture %}
+{% if p.arxiv %}{% capture linkline %}{{ linkline }}[arXiv]({{ p.arxiv }}){% endcapture %}{% endif %}
+{% if p.paperurl %}{% if linkline != "" %}{% capture linkline %}{{ linkline }} / {% endcapture %}{% endif %}
+{% capture linkline %}{{ linkline }}[Paper]({{ p.paperurl }}){% endcapture %}{% endif %}
+{% if p.code %}{% if linkline != "" %}{% capture linkline %}{{ linkline }} / {% endcapture %}{% endif %}
+{% capture linkline %}{{ linkline }}[Code]({{ p.code }}){% endcapture %}{% endif %}
+{% if linkline != "" %}
+{{ linkline }}
+{% endif %}
+
+{% endfor %}
+
 {% endfor %}
