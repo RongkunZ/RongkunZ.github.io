@@ -25,12 +25,12 @@ Explored baseline strategies for active learning under distribution shift, inclu
 
 ### Label-Free Single-Cell Morphology and Signal Analysis (Jan. 2023 – Apr. 2023)  
 Proposed a U-Net-based segmentation model to extract cell morphology without labeling. Integrated DeepCell-based signal tracking for quantitative analysis.  
-Published at *2023 IEEE International Conference on Image Processing and Computer Applications*.  
+<span style="font-size:smaller">Published at *2023 IEEE International Conference on Image Processing and Computer Applications*.</span>  
 **University of Minnesota · Twin Cities, MN**
 
 ### Project Schedule Optimization via HRRN (Dec. 2022 – Feb. 2023)  
 Developed a multi-objective MIP framework with HRRN-based dynamic prioritization for complex project scheduling under uncertainty.  
-Published at *2023 International Conference on Electronics and Devices, Computational Science*.  
+<span style="font-size:smaller">Published at *2023 International Conference on Electronics and Devices, Computational Science*.</span>  
 **University of Minnesota · Twin Cities, MN**
 
 ---
