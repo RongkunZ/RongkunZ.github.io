@@ -3,8 +3,6 @@ title: "Research & Projects"
 permalink: /research-project/
 layout: single
 author_profile: true
-sidebar:
-  nav: "main"
 ---
 
 ## 🧪 Research  
