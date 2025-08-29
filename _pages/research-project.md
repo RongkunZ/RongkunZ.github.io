@@ -39,7 +39,7 @@ Published at *2023 International Conference on Electronics and Devices, Computat
 
 ## 🎓 Academic Course Projects
 
-### Johns Hopkins University · Baltimore, MD
+### **Johns Hopkins University · Baltimore, MD**
 
 #### Code-Switched Neural Machine Translation *(Sep. 2025 – Dec. 2025)*  
 **Course:** Machine Translation  
@@ -57,12 +57,12 @@ YOLOv5 reached 92% detection accuracy and 34 FPS.
 
 ---
 
-### University of Minnesota · Twin Cities, MN
+### **University of Minnesota · Twin Cities, MN**
 
 #### The Travelers Companies Modeling Competition *(Jul. 2022 – Sep. 2022)*  
 **Role:** Project Lead  
 Conducted research on citation policies and built an XGBoost model to predict conversion rates for corporate citation strategies.  
-Proposed optimization solutions improve conversion by 8%.
+Proposed optimization solutions improving conversion by 8%.
 
 #### Food Preference Analysis for American Sports Enthusiasts *(Oct. 2022 – Dec. 2022)*  
 **Role:** Project Lead  
