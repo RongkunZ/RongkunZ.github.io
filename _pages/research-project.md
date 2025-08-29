@@ -27,12 +27,12 @@ Explored baseline strategies for active learning under distribution shift, inclu
 
 ### Label-Free Single-Cell Morphology and Signal Analysis (Jan. 2023 – Apr. 2023)  
 Proposed a U-Net-based segmentation model to extract cell morphology without labeling. Integrated DeepCell-based signal tracking for quantitative analysis.  
-Published at *ICIPCA 2023*.  
+Published at *2023 IEEE International Conference on Image Processing and Computer Applications*.  
 **University of Minnesota · Twin Cities, MN**
 
 ### Project Schedule Optimization via HRRN (Dec. 2022 – Feb. 2023)  
 Developed a multi-objective MIP framework with HRRN-based dynamic prioritization for complex project scheduling under uncertainty.  
-Published at *ICEDCS 2023*.  
+Published at *2023 International Conference on Electronics and Devices, Computational Science*.  
 **University of Minnesota · Twin Cities, MN**
 
 ---
@@ -62,7 +62,7 @@ YOLOv5 reached 92% detection accuracy and 34 FPS.
 #### The Travelers Companies Modeling Competition *(Jul. 2022 – Sep. 2022)*  
 **Role:** Project Lead  
 Conducted research on citation policies and built an XGBoost model to predict conversion rates for corporate citation strategies.  
-Proposed optimization solutions improving conversion by 8%.
+Proposed optimization solutions improve conversion by 8%.
 
 #### Food Preference Analysis for American Sports Enthusiasts *(Oct. 2022 – Dec. 2022)*  
 **Role:** Project Lead  
