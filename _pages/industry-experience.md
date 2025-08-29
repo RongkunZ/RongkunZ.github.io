@@ -2,8 +2,8 @@
 layout: page
 title: "Industry Experience"
 permalink: /industry-experience/
-sidebar:
-  nav: "main"
+layout: single
+author_profile: true
 ---
 
 ## Advertise Algorithm Intern, BIGO Live
