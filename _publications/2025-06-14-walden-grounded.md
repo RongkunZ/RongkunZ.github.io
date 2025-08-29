@@ -1,6 +1,7 @@
 ---
 title: "How Grounded is Wikipedia? A Study on Structured Evidential Support"
 collection: publications
+slug: "walden2025grounded"
 date: 2025-06-14
 venue: "arXiv preprint arXiv:2506.12637"
 authors: "*W. Walden, K. Ricci, M. Wanner, Z. Jiang, C. May, **R.Zhou**, and B. Van Durme*"
