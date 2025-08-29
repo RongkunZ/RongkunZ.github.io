@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "Industry Experience"
 permalink: /industry-experience/
 layout: single
