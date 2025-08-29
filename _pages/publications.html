@@ -16,29 +16,31 @@ classes: wide
 
 {% comment %} Group publications by year, newest first {% endcomment %}
 {% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "p", "p.date | date: '%Y'" %}
+
 {% for group in pubs_by_year %}
   <h3 style="margin-top:1.25rem">{{ group.name }}</h3>
   {% for post in group.items %}
+    {% assign pub_id = post.slug | default: post.title | slugify %}
     <div class="pub-item" style="margin:0 0 2rem 0">
       <h2 class="archive__item-title" style="margin:0 0 .25rem 0">{{ post.title }}</h2>
-
+      
       {% if post.authors %}
       <p class="pub-authors" style="margin:.15rem 0">
         {{ post.authors | markdownify | remove: '<p>' | remove: '</p>' }}
       </p>
       {% endif %}
-
+      
       <p class="pub-meta" style="margin:.1rem 0 .4rem 0">
         <i>{{ post.venue }}</i>, {{ post.date | date: '%Y' }}
         {% if post.paperurl %} · <a href="{{ post.paperurl }}">Paper</a>{% endif %}
         {% if post.arxiv %} / <a href="{{ post.arxiv }}">arXiv</a>{% endif %}
         {% if post.codeurl %} / <a href="{{ post.codeurl }}">Code</a>{% endif %}
-        {% if post.bibtex %} / <a href="javascript:void(0);" onclick="toggleBibtex('{{ post.slug }}')">BibTeX</a>{% endif %}
+        {% if post.bibtex %} / <a href="javascript:void(0);" onclick="toggleBibtex('{{ pub_id }}')">BibTeX</a>{% endif %}
       </p>
-
+      
       {% if post.bibtex %}
-      <div id="bibtex-{{ post.slug }}" style="display:none; margin-top:0.4rem">
-        <pre><code>{{ post.bibtex | strip }}</code></pre>
+      <div id="bibtex-{{ pub_id }}" style="display:none; margin-top:0.4rem; background-color:#f8f8f8; padding:1rem; border-radius:4px;">
+        <pre style="margin:0; white-space: pre-wrap;"><code>{{ post.bibtex | strip }}</code></pre>
       </div>
       {% endif %}
     </div>
@@ -46,11 +48,11 @@ classes: wide
 {% endfor %}
 
 <script>
-function toggleBibtex(slug) {
-  var el = document.getElementById("bibtex-" + slug);
-  if (el.style.display === "none") {
+function toggleBibtex(pubId) {
+  var el = document.getElementById("bibtex-" + pubId);
+  if (el && el.style.display === "none") {
     el.style.display = "block";
-  } else {
+  } else if (el) {
     el.style.display = "none";
   }
 }
