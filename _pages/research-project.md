@@ -10,7 +10,7 @@ author_profile: true
 ### Evidential Support Analysis in Wikipedia Biography Articles (Mar. 2025 – May. 2025)  
 **Role:** Research Assistant · *Advised by Prof. Benjamin Van Durme*  
 Created a benchmark of ~150K annotated claims from 1,485 Wikipedia articles to evaluate evidential support. Conducted BM25 and `trec_eval` evaluations across body-to-lead and source-to-body retrieval tasks. Extended framework with three dense retrievers (Inf-Retriever, NV-Embed, Ling-AI).  
-Co-authored paper on [arXiv:2506.12637](https://arxiv.org/abs/2506.12637).  
+<span style="font-size:smaller">Co-authored paper on [arXiv:2506.12637](https://arxiv.org/abs/2506.12637).</span>  
 **Johns Hopkins University · Baltimore, MD**
 
 ### AstroPath Cell Structure Segmentation (Mar. 2025 – Aug. 2025)  
