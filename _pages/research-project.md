@@ -37,28 +37,34 @@ Published at *ICEDCS 2023*.
 
 ---
 
-## 🎓 Academic Course Projects  
-**Johns Hopkins University · Baltimore, MD**
+## 🎓 Academic Course Projects
 
-### Code-Switched Neural Machine Translation (Sep. 2025 – Dec. 2025)  
+### Johns Hopkins University · Baltimore, MD
+
+#### Code-Switched Neural Machine Translation *(Sep. 2025 – Dec. 2025)*  
 **Course:** Machine Translation  
 Built a MarianMT/mBART system for translating code-switched text. Added language-aware attention, code-mixed GRU layers, and multi-task learning.  
 Achieved 69.8% BLEU improvement, with 80.14 BLEU on Spanish.
 
-### Audio-to-Image Generation with Cross-Modal VAE (Sep. 2025 – Dec. 2025)  
+#### Audio-to-Image Generation with Cross-Modal VAE *(Sep. 2025 – Dec. 2025)*  
 **Course:** Deep Learning  
 Built a Variational Autoencoder converting spoken digit audio (Audio-MNIST) into handwritten-style images. Fine-tuned an MNIST classifier for evaluation, achieving 82.29% recognition accuracy.
 
-### Real-Time Object Detection for Gaming Aimbots (Sep. 2025 – Dec. 2025)  
+#### Real-Time Object Detection for Gaming Aimbots *(Sep. 2025 – Dec. 2025)*  
 **Course:** Computer Vision  
-Analyzed YOLOv3/4/5 for FPS game screen detection. Integrated screen capture, preprocessing, and aiming pipeline. YOLOv5 reached 92% detection accuracy and 34 FPS.
- 
-**University of Minnesota · Twin Cities, MN**
+Analyzed YOLOv3/4/5 for FPS game screen detection. Integrated screen capture, preprocessing, and aiming pipeline.  
+YOLOv5 reached 92% detection accuracy and 34 FPS.
 
-### The Travelers Companies Modeling Competition *(Jul. 2022 – Sep. 2022)*  
-**Role:** Project Lead  
-Conducted research on citation policies and built an XGBoost model to predict conversion rates for corporate citation strategies. Proposed optimization solutions improving conversion by 8%.
+---
 
-### Food Preference Analysis for American Sports Enthusiasts *(Oct. 2022 – Dec. 2022)*  
+### University of Minnesota · Twin Cities, MN
+
+#### The Travelers Companies Modeling Competition *(Jul. 2022 – Sep. 2022)*  
 **Role:** Project Lead  
-Surveyed Minnesota baseball fans to analyze food preferences. Developed predictive models (weighted KNN, LASSO) to design customized catering strategies for Minneapolis-based sports events.
+Conducted research on citation policies and built an XGBoost model to predict conversion rates for corporate citation strategies.  
+Proposed optimization solutions improving conversion by 8%.
+
+#### Food Preference Analysis for American Sports Enthusiasts *(Oct. 2022 – Dec. 2022)*  
+**Role:** Project Lead  
+Surveyed Minnesota baseball fans to analyze food preferences.  
+Developed predictive models (weighted KNN, LASSO) to design customized catering strategies for Minneapolis-based sports events.
