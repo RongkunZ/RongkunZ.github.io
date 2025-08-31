@@ -30,7 +30,7 @@ I aim to develop methods that improve structured reasoning, question answering, 
 - **Focus**: Investigating where language agents fail in multi-step reasoning and decision-making during interactive fiction scenarios  
 - **Goal**: Identify reasoning bottlenecks and stuck states, guiding behavior through targeted interventions and improving agent robustness  
 
-### 🔐 Steganography in LLM Chain-of-Thought (2025.05–Present)  
+### 🔑 Reasoning Transfer in LLM Chain-of-Thought (2025.05–Present)  
 - **Advisor**: William Walden, [HLTCOE](https://hltcoe.jhu.edu/), Johns Hopkins University  
-- **Focus**: Investigating how reasoning traces in LLM outputs might covertly encode information (textual steganography)  
-- **Goal**: Detect and mitigate hidden signals that may enable malicious coordination or model misuse, using interventions such as knowledge distillation and controlled decoding to improve model safety, transparency, and trustworthiness  
+- **Focus**: Investigating how reasoning traces from large models can guide smaller models across math (GSM8K), science QA (GPQA), and logical reasoning (AQUA-RAT).  
+- **Goal**: Develop techniques to improve small-model accuracy and robustness via chain-of-thought supervision, comparing inference-time guidance with potential training-time distillation.
