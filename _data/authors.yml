@@ -22,4 +22,4 @@ Rongkun Zhou:
   uri     : "https://rongkunz.github.io"
   email   : "rzhou33@jh.edu"
   bio     : "Turning Ideas into Impact"
-  avatar  : "/images/personal/IMG_3575.JPG"   # 注意只写文件名，主题会自动去 /images/ 里找
+  avatar  : "personal/IMG_3575.JPG"   # 注意只写文件名，主题会自动去 /images/ 里找
