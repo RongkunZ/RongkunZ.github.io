@@ -22,7 +22,7 @@ repository               : "RongkunZ/RongkunZ.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "files/IMG_3575.JPG"
+  avatar           : "images/personal/IMG_3575.JPG"
   name             : "Rongkun Zhou"
   pronouns         : # example: "she/her"  
   bio              : "Turning Ideas into Impact"
