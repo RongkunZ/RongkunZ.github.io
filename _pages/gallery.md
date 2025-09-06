@@ -162,15 +162,15 @@ classes: wide
 ## 🏝️ Semporna, Malaysia - June 2024
 
 ![SP](/images/gallery/semporna-june2024/IMG_6855.JPG)
-*Semporna, Malaysia — Traditional Stilt House Over Turquoise Waters*
-![SP](/images/gallery/semporna-june2024/IMG_3379.HEIC)
-*Caption here*
-![SP](/images/gallery/semporna-june2024/IMG_6855.JPG)
-*Caption here*
-![SP](/images/gallery/semporna-june2024/IMG_6855.JPG)
-*Caption here*
-![SP](/images/gallery/semporna-june2024/IMG_6855.JPG)
-*Caption here*
+*Semporna, Malaysia — Stilt House Over Turquoise Waters*
+![SP](/images/gallery/semporna-june2024/IMG_6866.JPG)
+*Semporna, Malaysia — Crystal Clear Waters of the Celebes Sea*
+![SP](/images/gallery/semporna-june2024/15528f6dc8694f46347acf7750d73333.JPG)
+*Semporna, Malaysia — Stilt Houses*
+![SP](/images/gallery/semporna-june2024/a97228c53858461abca8106d39afdee2.JPG)
+*Semporna, Malaysia — Fresh huge mantis shrimp at Local Market*
+![SP](/images/gallery/semporna-june2024/bc9f8151266d1719bca42a495f292e82.JPG)
+*Semporna, Malaysia — Local Coconut Vendor in Crystal Waters*
 
 
 ---
