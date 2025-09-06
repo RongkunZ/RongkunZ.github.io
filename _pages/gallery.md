@@ -177,101 +177,200 @@ classes: wide
 
 ## 🕌 Brunei - June 2024
 
-![Photo 1](/assets/images/gallery/2024-06-brunei/photo1.jpg)
-*Caption here*
+![Brunei](/images/gallery/brunei-june2024/DSCF0598.JPG)
+*Bandar Seri Begawan, Brunei — Omar Ali Saifuddien Mosque Interior*
+![Brunei](/images/gallery/brunei-june2024/DSCF0635.JPG)
+*Bandar Seri Begawan, Brunei — Omar Ali Saifuddien Mosque*
+![Brunei](/images/gallery/brunei-june2024/DSCF0760.JPG)
+*Bandar Seri Begawan, Brunei — The Empire Hotel & Country Club at Sunset*
+![Brunei](/images/gallery/brunei-june2024/DSCF0763.JPG)
+*Bandar Seri Begawan, Brunei — Manicured Parkland with Mature Trees*
+![Brunei](/images/gallery/brunei-june2024/DSCF0769.JPG)
+*andar Seri Begawan, Brunei — The Empire Hotel Scenic Coastline*
 
-![Photo 2](/assets/images/gallery/2024-06-brunei/photo2.jpg)
-*Caption here*
 
 ---
 
 ## 🏙️ Kuala Lumpur & Kota Kinabalu & Penang, Malaysia - May 2024
 
-![Photo 1](/assets/images/gallery/2024-05-malaysia/photo1.jpg)
-*Caption here*
+![Malaysia](/images/gallery/Kuala-Lumpur-&-Kota-Kinabalu-&-Penang-malaysia-may2024/IMG_6296.JPG)
+*Kuala Lumpur, Malaysia — Petronas Twin Towers at Night*
+![Malaysia](/images/gallery/Kuala-Lumpur-&-Kota-Kinabalu-&-Penang-malaysia-may2024/IMG_6370.JPG)
+*Kota Kinabalu, Malaysia — Tropical Coconut Palms by the Sea*
+![Malaysia](/images/gallery/Kuala-Lumpur-&-Kota-Kinabalu-&-Penang-malaysia-may2024/IMG_6384.JPG)
+*Kota Kinabalu, Malaysia — Stand-Up Paddleboard*
+![Malaysia](/images/gallery/Kuala-Lumpur-&-Kota-Kinabalu-&-Penang-malaysia-may2024/IMG_6519.JPG)
+*Kota Kinabalu, Malaysia — Dramatic Sunset Sky*
+![Malaysia](/images/gallery/Kuala-Lumpur-&-Kota-Kinabalu-&-Penang-malaysia-may2024/IMG_6557.JPG)
+*Kota Kinabalu, Malaysia — Solitary Kayaker at Twilight*
 
-![Photo 2](/assets/images/gallery/2024-05-malaysia/photo2.jpg)
-*Caption here*
+
 
 ---
 
 ## 🛺 Chiang Mai & Bangkok, Thailand - May 2024
 
-![Photo 1](/assets/images/gallery/2024-05-thailand/photo1.jpg)
-*Caption here*
-
-![Photo 2](/assets/images/gallery/2024-05-thailand/photo2.jpg)
-*Caption here*
+![Thai](/images/gallery/thailand-may2024/IMG_5658.JPG)
+*Chiang Mai, Thailand — Elephants at Wildlife Sanctuary*
+![Thai](/images/gallery/thailand-may2024/images/gallery/thailand-may2024/0ad1dbc848de83387792cbd4acebece2.JPG)
+*Chiang Mai, Thailand — Elephants Resting with Mountain Vista*
+![Thai](/images/gallery/thailand-may2024/f170e2d42775fefe33f6fc2f5b21edc3.JPG)
+*Bangkok, Thailand — Wat Arun (Temple of Dawn)*
+![Thai](/images/gallery/thailand-may2024/IMG_6096.JPG)
+*Bangkok, Thailand — Reclining Buddha Head at Wat Pho*
+![Thai](/images/gallery/thailand-may2024/IMG_6101.JPG)
+*Bangkok, Thailand — Reclining Buddha Feet at Wat Pho*
+![Thai](/images/gallery/thailand-may2024/IMG_9644.JPG)
+*Bangkok, Thailand — BTS Skytrain Street Art*
 
 ---
 
 ## 🐘 Vientiane & Vang Vieng & Luang Prabang, Laos - May 2024
 
-![Photo 1](/assets/images/gallery/2024-05-laos/photo1.jpg)
-*Caption here*
-
-![Photo 2](/assets/images/gallery/2024-05-laos/photo2.jpg)
-*Caption here*
+![Laos](/images/gallery/laos-may2024/IMG_4822.JPG)
+*Luang Prabang, Laos — Lotus Restaurant Riverside Dining*
+![Laos](/images/gallery/laos-may2024/7293f4c7d2104a78c84a0ba916a8eb90.JPG)
+*Luang Prabang, Laos — Terraced Pools at Kuang Si Falls*
+![Laos](/images/gallery/laos-may2024/IMG_8286.JPG)
+*When life gives you waterfalls, sit down and vibe.*
+![Laos](/images/gallery/laos-may2024/3796c1a39a5889495eedd9e72b0b768c.JPG)
+*Luang Prabang, Laos — Rescued Bear at Kuang Si Bear Rescue Centre*
+![Laos](/images/gallery/laos-may2024/545218efd63ff221e0ecc20874877143.JPG)
+*Luang Prabang, Laos — Mekong Riverside Hotpot & BBQ Feast*
 
 ---
 
 ## 🇦🇲 Yerevan, Armenia - May 2024
 
-![Photo 1](/assets/images/gallery/2024-05-armenia/photo1.jpg)
-*Caption here*
-
-![Photo 2](/assets/images/gallery/2024-05-armenia/photo2.jpg)
-*Caption here*
+![Armenia](/images/gallery/armenia-may2024/36bf0697f396fc4663252c6700f70648.JPG)
+*Yerevan, Armenia — The Cascade Complex*
+![Armenia](/images/gallery/armenia-may2024/53716a4cf1d3a67b4941963bfb684306.JPG)
+*Yerevan, Armenia — Cascade Complex & Cafesjian Center for the Arts*
+![Armenia](/images/gallery/armenia-may2024/IMG_4465.JPG)
+*Armenia — Mount Ararat at Dusk*
+![Armenia](/images/gallery/armenia-may2024/f2955888db2d137521cfd42613b71785.JPG)
+*Yerevan, Armenia — Enjoy Afternoon*
+![Armenia](/images/gallery/armenia-may2024/fbfefaf77cd0cde2449532e820100055.JPG)
+*Yerevan, Armenia — Republic Square*
 
 ---
 
 ## 🏔️ Tbilisi & Mestia, Georgia - May 2024
 
-![Photo 1](/assets/images/gallery/2024-05-georgia/photo1.jpg)
-*Caption here*
-
-![Photo 2](/assets/images/gallery/2024-05-georgia/photo2.jpg)
-*Caption here*
+![Georgia](/images/gallery/georgia-may2024/IMG_0459.JPG)
+*Mestia, Georgia — Watchtowers Beneath the Caucasus Peaks*
+![Georgia](/images/gallery/georgia-may2024/IMG_3206.JPG)
+*Ushguli, Georgia — A Village at the End of the World*
+![Georgia](/images/gallery/georgia-may2024/IMG_0459.JPG)
+*Mestia, Georgia — Best Cream Chicken I had ever eaten, No.eats==No.stays*
+![Georgia](/images/gallery/georgia-may2024/IMG_3792.JPG)
+*Mestia, Georgia — Heavy Snowy Trail to Koruldi Lakes*
+![Georgia](/images/gallery/georgia-may2024/IMG_4137.jpg)
+*Mestia, Georgia — Dusk Over the Caucasus Mountains*
+![Georgia](/images/gallery/georgia-may2024/IMG_4201.JPG)
+*Tbilisi, Georgia — Glowing Nightscape of the Holy Trinity Cathedral*
+![Georgia](/images/gallery/georgia-may2024/IMG_4204.JPG)
+*Tbilisi, Georgia — The Leaning Clock Tower of Rezo Gabriadze Theater*
 
 ---
 
 ## 🏛️ Istanbul & Cappadocia & Kas & Fethiye & Antalya, Turkey - May 2024
 
-![Photo 1](/assets/images/gallery/2024-05-turkey/photo1.jpg)
-*Caption here*
-
-![Photo 2](/assets/images/gallery/2024-05-turkey/photo2.jpg)
-*Caption here*
+![Turkey](/images/gallery/tuekey-may2024/1b0d81105fbb1f8558df5023f36c265e.JPG)
+*Istanbul, Turkey — Cargo ship cruising through the Bosphorus Strait*
+![Turkey](/images/gallery/tuekey-may2024/IMG_0054.JPG)
+*Istanbul, Turkey — The Dolmabahçe Mosque by the Bosphorus*
+![Turkey](/images/gallery/tuekey-may2024/IMG_1812.JPG)
+*Istanbul, Turkey — The Blue Mosque (Sultan Ahmed Mosque)*
+![Turkey](/images/gallery/tuekey-may2024/IMG_1825.JPG)
+*Istanbul, Turkey — Hagia Sophia Interior*
+![Turkey](/images/gallery/tuekey-may2024/IMG_2185.JPG)
+*Istanbul, Turkey — The Blue Mosque from Sultanahmet Park*
+![Turkey](/images/gallery/tuekey-may2024/IMG_2540.JPG)
+*Göreme, Cappadocia — Cave Hotels Illuminated at Dusk*
+![Turkey](/images/gallery/tuekey-may2024/IMG_2752.JPG)
+*Antalya, Turkey — A Quiet Moment by the Mediterranean*
+![Turkey](/images/gallery/tuekey-may2024/452afe78018677ef6639d59b6486c2cf.JPG)
+*Cappadocia, Turkey — A Sky Full of Dreams*
+![Turkey](/images/gallery/tuekey-may2024/IMG_3014.JPG)
+*Antalya, Turkey — D400 Road Trip*
+![Turkey](/images/gallery/tuekey-may2024/IMG_3024.JPG)
+*Kaputaş Beach, Turkey — Sun-Kissed Cliffs and Emerald Waters*
 
 ---
 
 ## 🔥 Baku, Azerbaijan - May 2024
 
-![Photo 1](/assets/images/gallery/2024-05-azerbaijan/photo1.jpg)
-*Caption here*
+![Azerbaijan](/images/gallery/azerbaijan-may2024/IMG_1487.JPG)
+*Baku, Azerbaijan — Caspian Sea boulevard and Flame Towers skyline*
+![Azerbaijan](/images/gallery/azerbaijan-may2024/IMG_1609.JPG)
+*Baku, Azerbaijan — Heydar Aliyev Center designed by Zaha Hadid*
+![Azerbaijan](/images/gallery/azerbaijan-may2024/IMG_1732.JPG)
+*Yanar Dag, Azerbaijan — Eternal flames burning from the hillside*
 
-![Photo 2](/assets/images/gallery/2024-05-azerbaijan/photo2.jpg)
-*Caption here*
 
 ---
 
 ## 🏙️ Doha, Qatar - April 2024
 
-![Photo 1](/assets/images/gallery/2024-04-qatar/photo1.jpg)
-*Caption here*
-
-![Photo 2](/assets/images/gallery/2024-04-qatar/photo2.jpg)
-*Caption here*
+![Qatar](/images/gallery/qatar-apr-2024/0afb23d14f99aee6ed42aa8fd01dd15f.jpg)
+*Doha, Qatar — Exterior of the Museum of Islamic Art, designed by I. M. Pei*
+![Qatar](/images/gallery/qatar-apr-2024/c0d116080045b9dd728a586426eb8708.jpg)
+*Doha, Qatar — The central spine of the Museum of Islamic Art*
+![Qatar](/images/gallery/qatar-apr-2024/dc54ace8df9f294a0a2b9b9893c5adfe.jpg)
+*Doha, Qatar — Inside the Museum of Islamic Art, an astonishing geometric atrium and grand symmetry*
+![Qatar](/images/gallery/qatar-apr-2024/IMG_1170.jpg)
+*Doha, Qatar — FIFA World Cup 2022 countdown clock and skyline across the bay*
+![Qatar](/images/gallery/qatar-apr-2024/IMG_1354.JPG)
+*Doha, Qatar — Futuristic desert rose–inspired façade of the National Museum of Qatar*
+![Qatar](/images/gallery/qatar-apr-2024/IMG_1370.JPG)
+*Doha, Qatar — Stadium 974 built from repurposed shipping containers*
 
 ---
 
 ## 🏜️ Cairo & Aswan & Luxor & Hurghada, Egypt - April 2024
 
-![Photo 1](/assets/images/gallery/2024-04-egypt/photo1.jpg)
-*Caption here*
+![Egypt](/images/gallery/egypt-apr2024/IMG_0320.JPG)
+**
 
-![Photo 2](/assets/images/gallery/2024-04-egypt/photo2.jpg)
-*Caption here*
+![Egypt](/images/gallery/egypt-apr2024/Weixin Image_20250906042905_205_30.jpg)
+**
+![Egypt](/images/gallery/egypt-apr2024/IMG_0320.JPG)
+**
+![Egypt](/images/gallery/egypt-apr2024/IMG_0320.JPG)
+**
+![Egypt](/images/gallery/egypt-apr2024/IMG_0320.JPG)
+**
+![Egypt](/images/gallery/egypt-apr2024/IMG_0320.JPG)
+**
+![Egypt](/images/gallery/egypt-apr2024/IMG_0320.JPG)
+**
+![Egypt](/images/gallery/egypt-apr2024/IMG_0320.JPG)
+**
+![Egypt](/images/gallery/egypt-apr2024/IMG_0320.JPG)
+**
+![Egypt](/images/gallery/egypt-apr2024/IMG_0320.JPG)
+**
+![Egypt](/images/gallery/egypt-apr2024/IMG_0320.JPG)
+**
+![Egypt](/images/gallery/egypt-apr2024/IMG_0320.JPG)
+**
+![Egypt](/images/gallery/egypt-apr2024/IMG_0320.JPG)
+**
+![Egypt](/images/gallery/egypt-apr2024/IMG_0320.JPG)
+**
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 
