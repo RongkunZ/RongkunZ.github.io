@@ -6,7 +6,7 @@ author_profile: true
 classes: wide
 ---
 
-I'm passionate about traveling and discovering the beauty, culture, and unique experiences that different destinations offer. Here are some memorable moments captured during my journeys:
+I'm passionate about traveling and discovering the beauty, culture, and unique experiences that different destinations offer. Here are some memorable moments captured during my journeys(keeping updates):
 
 ## 🏔️ California & Arizona & Nevada & Utah & Idaho & Wyoming & Montana, USA - January 2025
 
@@ -363,18 +363,19 @@ I'm passionate about traveling and discovering the beauty, culture, and unique e
 ## 🏔️ Xinjiang, China - December 2023 - January 2024
 
 ![CN](/images/gallery/xinjiang-jan2024/IMG_7130.JPG)
-**
+*Xinjiang, China — Aerial view of snow-capped Tianshan Mountains at sunset*
 ![CN](/images/gallery/xinjiang-jan2024/IMG_7419.JPG)
-**
-![CN](/images/gallery/xinjiang-jan2024/IMG_7554.JPG)
-**
+*Baisha Lake, Xinjiang — Pebbles frozen beneath a crystal-clear layer of ice*
 ![CN](/images/gallery/xinjiang-jan2024/IMG_9202.jpg)
-**
+*Baisha Lake, Xinjiang — the frozen lake with towering sand-draped mountains under the winter sun*
+![CN](/images/gallery/xinjiang-jan2024/IMG_7554.JPG)
+*Pamir Plateau, Xinjiang — Winter sunlight casting shadows over the snow-capped peaks and winding mountain road*
 ![CN](/images/gallery/xinjiang-jan2024/IMG_9236.JPG)
-**
+*Pamir Plateau, Xinjiang — Snow-covered unnamed peak glowing under the late afternoon sun along the Karakoram Highway*
 ![CN](/images/gallery/xinjiang-jan2024/IMG_9252.JPG)
-**
+*Pamir Plateau, Xinjiang — Golden-hour sunlight casting warm tones on the glacier-clad slopes of the towering Muztagh Ata Mountain*
 ![CN](/images/gallery/xinjiang-jan2024/IMG_9313.JPG)
-**
+*Pamir Plateau, Xinjiang — Dusk settles over the snow-draped peaks of Muztagh Ata*
 
+Need time to upload more...
 ---
