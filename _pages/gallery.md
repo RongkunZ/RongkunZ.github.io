@@ -8,7 +8,8 @@ classes: wide
 <details>
 <summary>
 ## 🏔️ California & Arizona & Nevada & Utah & Idaho & Wyoming & Montana, USA - January 2025
-
+</summary>
+  
 ![CA](/images/gallery/jan2025us/4B4A2030.jpg)
 *Yosemite, CA — Half Dome*
 ![CA](/images/gallery/jan2025us/4B4A2156.JPG)
