@@ -7,7 +7,7 @@ classes: wide
 ---
 ## 🏔️ California & Arizona & Nevada & Utah & Idaho & Wyoming & Montana, USA - January 2025
 
-![CA](images/gallery/jan2025us/4B4A2030.jpg)
+![CA](/images/gallery/jan2025us/4B4A2030.jpg)
 *Yosemite*
 
 ![Photo 2](/assets/images/gallery/2025-01-usa-west/photo2.jpg)
