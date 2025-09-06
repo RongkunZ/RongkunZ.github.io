@@ -5,6 +5,9 @@ permalink: /gallery/
 author_profile: true
 classes: wide
 ---
+
+I'm passionate about traveling and discovering the beauty, culture, and unique experiences that different destinations offer. Here are some memorable moments captured during my journeys:
+
 ## 🏔️ California & Arizona & Nevada & Utah & Idaho & Wyoming & Montana, USA - January 2025
 
 ![CA](/images/gallery/jan2025us/4B4A2030.jpg)
@@ -331,55 +334,47 @@ classes: wide
 ## 🏜️ Cairo & Aswan & Luxor & Hurghada, Egypt - April 2024
 
 ![Egypt](/images/gallery/egypt-apr2024/IMG_0320.JPG)
-**
-
-![Egypt](/images/gallery/egypt-apr2024/Weixin Image_20250906042905_205_30.jpg)
-**
-![Egypt](/images/gallery/egypt-apr2024/IMG_0320.JPG)
-**
-![Egypt](/images/gallery/egypt-apr2024/IMG_0320.JPG)
-**
-![Egypt](/images/gallery/egypt-apr2024/IMG_0320.JPG)
-**
-![Egypt](/images/gallery/egypt-apr2024/IMG_0320.JPG)
-**
-![Egypt](/images/gallery/egypt-apr2024/IMG_0320.JPG)
-**
-![Egypt](/images/gallery/egypt-apr2024/IMG_0320.JPG)
-**
-![Egypt](/images/gallery/egypt-apr2024/IMG_0320.JPG)
-**
-![Egypt](/images/gallery/egypt-apr2024/IMG_0320.JPG)
-**
-![Egypt](/images/gallery/egypt-apr2024/IMG_0320.JPG)
-**
-![Egypt](/images/gallery/egypt-apr2024/IMG_0320.JPG)
-**
-![Egypt](/images/gallery/egypt-apr2024/IMG_0320.JPG)
-**
-![Egypt](/images/gallery/egypt-apr2024/IMG_0320.JPG)
-**
-
-
-
-
-
-
-
-
-
-
-
-
+*Giza, Egypt - the Great Pyramid of Khafre and Pyramid of Menkaure*
+![Egypt](/images/gallery/egypt-apr2024/Image_20250906042905_205_30.jpg)
+*Giza, Egypt — The Great Sphinx facing forward with the Pyramid of Khafre*
+![Egypt](/images/gallery/egypt-apr2024/IMG_9465.JPG)
+*Abu Simbel, Egypt — Temple of Ramses II*
+![Egypt](/images/gallery/egypt-apr2024/IMG_9543.JPG)
+*Aswan, Egypt — Sunset over the Nile from the Old Cataract Hotel.*
+![Egypt](/images/gallery/egypt-apr2024/IMG_9571.jpg)
+*Aswan, Egypt — Riverside terrace at the Old Cataract, nestled among palms and sailboats.*
+![Egypt](/images/gallery/egypt-apr2024/IMG_9577.JPG)
+*Aswan, Egypt — Sofitel Legend Old Cataract Hotel at night.*
+![Egypt](/images/gallery/egypt-apr2024/IMG_9588.JPG)
+*Aswan, Egypt — Philae Temple from the Nile*
+![Egypt](/images/gallery/egypt-apr2024/IMG_9718.JPG)
+*Aswan, Egypt — Kiosk of Trajan at Philae Temple at sunset*
+![Egypt](/images/gallery/egypt-apr2024/IMG_9996.JPG)
+*Aswan, Egypt — Colonnade interior view at Philae Temple*
+![Egypt](/images/gallery/egypt-apr2024/Image_20250906042909_206_30.jpg)
+*Luxor, Egypt — Statues of Ramses II at the entrance of Luxor Temple*
+![Egypt](/images/gallery/egypt-apr2024/Image_20250906043038_207_30.jpg)
+*Luxor, Egypt — Great Hypostyle Hall at Karnak Temple*
+![Egypt](/images/gallery/egypt-apr2024/IMG_0151.JPG)
+*Hurghada, Egypt — Relaxing beach scene along the Red Sea coast*
 
 ---
 
 ## 🏔️ Xinjiang, China - December 2023 - January 2024
 
-![Photo 1](/assets/images/gallery/2023-12-xinjiang/photo1.jpg)
-*Caption here*
-
-![Photo 2](/assets/images/gallery/2023-12-xinjiang/photo2.jpg)
-*Caption here*
+![CN](/images/gallery/xinjiang-jan2024/IMG_7130.JPG)
+**
+![CN](/images/gallery/xinjiang-jan2024/IMG_7419.JPG)
+**
+![CN](/images/gallery/xinjiang-jan2024/IMG_7554.JPG)
+**
+![CN](/images/gallery/xinjiang-jan2024/IMG_9202.jpg)
+**
+![CN](/images/gallery/xinjiang-jan2024/IMG_9236.JPG)
+**
+![CN](/images/gallery/xinjiang-jan2024/IMG_9252.JPG)
+**
+![CN](/images/gallery/xinjiang-jan2024/IMG_9313.JPG)
+**
 
 ---
