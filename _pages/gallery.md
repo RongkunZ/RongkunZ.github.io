@@ -161,11 +161,17 @@ classes: wide
 
 ## 🏝️ Semporna, Malaysia - June 2024
 
-![Photo 1](/assets/images/gallery/2024-06-semporna/photo1.jpg)
+![SP](/images/gallery/semporna-june2024/IMG_6855.JPG)
+*Semporna, Malaysia — Traditional Stilt House Over Turquoise Waters*
+![SP](/images/gallery/semporna-june2024/IMG_3379.HEIC)
+*Caption here*
+![SP](/images/gallery/semporna-june2024/IMG_6855.JPG)
+*Caption here*
+![SP](/images/gallery/semporna-june2024/IMG_6855.JPG)
+*Caption here*
+![SP](/images/gallery/semporna-june2024/IMG_6855.JPG)
 *Caption here*
 
-![Photo 2](/assets/images/gallery/2024-06-semporna/photo2.jpg)
-*Caption here*
 
 ---
 
