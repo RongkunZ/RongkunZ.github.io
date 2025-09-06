@@ -68,7 +68,7 @@ classes: wide
 ![WY](/images/gallery/jan2025us/4B4A4334.JPG)
 *Grand Teton, WY — Teton Range in Winter*
 ![WY](/images/gallery/jan2025us/IMG_7152.JPG)
-*Yellowstone, WY — Welcome Sign(But took when we left.*
+*Yellowstone, WY — Welcome Sign(But took when we left.)*
 
 
 ---
