@@ -79,7 +79,7 @@ I'm passionate about traveling and discovering the beauty, culture, and unique e
 
 ![BC](/images/gallery/ca-jan2025/4B4A1593.JPG)
 *Vancouver, BC — Gastown Steam Clock on New Year’s Eve 2024–2025*
-![BC](/images/gallery/ca-jan2025/4B4A1593.JPG)
+![BC](/images/gallery/ca-jan2025/4B4A1845.JPG)
 *Garibaldi Park, BC — Black Tusk*
 ![BC](/images/gallery/ca-jan2025/4B4A1864.JPG)
 *Victoria, BC — Parliament Buildings*
@@ -215,7 +215,7 @@ I'm passionate about traveling and discovering the beauty, culture, and unique e
 
 ![Thai](/images/gallery/thailand-may2024/IMG_5658.JPG)
 *Chiang Mai, Thailand — Elephants at Wildlife Sanctuary*
-![Thai](/images/gallery/thailand-may2024/images/gallery/thailand-may2024/0ad1dbc848de83387792cbd4acebece2.JPG)
+![Thai](images/gallery/thailand-may2024/0ad1dbc848de83387792cbd4acebece2.JPG)
 *Chiang Mai, Thailand — Elephants Resting with Mountain Vista*
 ![Thai](/images/gallery/thailand-may2024/f170e2d42775fefe33f6fc2f5b21edc3.JPG)
 *Bangkok, Thailand — Wat Arun (Temple of Dawn)*
