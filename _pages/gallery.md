@@ -5,6 +5,8 @@ permalink: /gallery/
 author_profile: true
 classes: wide
 ---
+<details>
+<summary>
 ## 🏔️ California & Arizona & Nevada & Utah & Idaho & Wyoming & Montana, USA - January 2025
 
 ![CA](/images/gallery/jan2025us/4B4A2030.jpg)
@@ -69,13 +71,13 @@ classes: wide
 *Grand Teton, WY — Teton Range in Winter*
 ![WY](/images/gallery/jan2025us/IMG_7152.JPG)
 *Yellowstone, WY — Welcome Sign(But took when we left.)*
-
+</details>
 
 ---
 
 ## 🍁 Vancouver, Canada - January 2025
 
-![Photo 1](/assets/images/gallery/2025-01-vancouver/photo1.jpg)
+![Photo 1](/images/gallery/ca jan2025/4B4A1593.JPG)
 *Caption here*
 
 ![Photo 2](/assets/images/gallery/2025-01-vancouver/photo2.jpg)
