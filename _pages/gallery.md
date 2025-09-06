@@ -5,11 +5,8 @@ permalink: /gallery/
 author_profile: true
 classes: wide
 ---
-<details>
-<summary>
 ## 🏔️ California & Arizona & Nevada & Utah & Idaho & Wyoming & Montana, USA - January 2025
-</summary>
-  
+
 ![CA](/images/gallery/jan2025us/4B4A2030.jpg)
 *Yosemite, CA — Half Dome*
 ![CA](/images/gallery/jan2025us/4B4A2156.JPG)
@@ -72,37 +69,93 @@ classes: wide
 *Grand Teton, WY — Teton Range in Winter*
 ![WY](/images/gallery/jan2025us/IMG_7152.JPG)
 *Yellowstone, WY — Welcome Sign(But took when we left.)*
-</details>
 
 ---
 
 ## 🍁 Vancouver, Canada - January 2025
 
-![Photo 1](/images/gallery/ca jan2025/4B4A1593.JPG)
-*Caption here*
-
-![Photo 2](/assets/images/gallery/2025-01-vancouver/photo2.jpg)
-*Caption here*
+![BC](/images/gallery/ca-jan2025/4B4A1593.JPG)
+*Vancouver, BC — Gastown Steam Clock on New Year’s Eve 2024–2025*
+![BC](/images/gallery/ca-jan2025/4B4A1593.JPG)
+*Garibaldi Park, BC — Black Tusk*
+![BC](/images/gallery/ca-jan2025/4B4A1864.JPG)
+*Victoria, BC — Parliament Buildings*
+![BC](/images/gallery/ca-jan2025/4B4A1880.JPG)
+*Victoria, BC — Inner Harbour*
 
 ---
 
 ## ❄️ Alaska, USA - December 2024
 
-![Photo 1](/assets/images/gallery/2024-12-alaska/photo1.jpg)
-*Caption here*
-
-![Photo 2](/assets/images/gallery/2024-12-alaska/photo2.jpg)
-*Caption here*
+![AK](/images/gallery/alaska-dec2024/IMG_3042.JPG)
+*Anchorage, AK — Winter Street with Mountain View*
+![AK](/images/gallery/alaska-dec2024/IMG_3221.JPG)
+*Alaska, USA — Glacier Ice Detail*
+![AK](/images/gallery/alaska-dec2024/IMG_3258.JPG)
+*Matanuska Glacier, AK — Glacier Landscape*
+![AK](/images/gallery/alaska-dec2024/IMG_3293.JPG)
+*Matanuska Glacier, AK — Glacier Explorer(me)*
+![AK](/images/gallery/alaska-dec2024/IMG_3527.JPG)
+*Chena Hot Springs, AK — Winter Steam in the Snow*
+![AK](/images/gallery/alaska-dec2024/IMG_3575.JPG)
+*Aurora Ice Museum, AK — Ice Bar with Drinks*
+![AK](/images/gallery/alaska-dec2024/IMG_3704.JPG)
+*Fairbanks, AK — Arora*
+![AK](/images/gallery/alaska-dec2024/IMG_3736.jpg)
+*Fairbanks, AK — Dog Sledding at Sunset*
+![AK](/images/gallery/alaska-dec2024/IMG_3750.JPG)
+*Fairbanks, AK — Cute Dog*
+![AK](/images/gallery/alaska-dec2024/4B4A1553.JPG)
+*Fairbanks, AK — Winter Cityscape at Sunset*
+![AK](/images/gallery/alaska-dec2024/IMG_3930.JPG)
+*Fairbanks, AK — Arora*
+![AK](/images/gallery/alaska-dec2024/IMG_3934.JPG)
+*Fairbanks, AK — Arora*
 
 ---
 
-## 🗾 Tokyo & Osaka & Kyoto & Kamakura, Japan - August 2024
+## 🗾 Tokyo & Osaka & Kyoto & Nara & Kamakura, Japan - August 2024
 
-![Photo 1](/assets/images/gallery/2024-08-japan/photo1.jpg)
-*Caption here*
-
-![Photo 2](/assets/images/gallery/2024-08-japan/photo2.jpg)
-*Caption here*
+![JP](/images/gallery/japan-aug2024/IMG_8893.JPG)
+*Tokyo, Japan — Sensō-ji Temple*
+![JP](/images/gallery/japan-aug2024/IMG_8967.JPG)
+*Osaka, Japan — Dōtonbori at Night with Glico Sign*
+![JP](/images/gallery/japan-aug2024/IMG_9029.JPG)
+*Osaka, Japan — Umeda Sky Building Observatory at Night*
+![JP](/images/gallery/japan-aug2024/IMG_9070.JPG)
+*Osaka, Japan — Daruma Dolls at Katsuo-ji Temple*
+![JP](/images/gallery/japan-aug2024/IMG_9093.JPG)
+*Osaka, Japan — Good luck at Katsuo-ji Temple*
+![JP](/images/gallery/japan-aug2024/IMG_9104.JPG)
+*Osaka, Japan — Osaka Castle*
+![JP](/images/gallery/japan-aug2024/IMG_9156.JPG)
+*Kyoto, Japan — Kiyomizu-dera*
+![JP](/images/gallery/japan-aug2024/IMG_9187.JPG)
+*Kyoto, Japan — Rōmon Gate at Yasaka Shrine*
+![JP](/images/gallery/japan-aug2024/IMG_9219.JPG)
+*Kyoto, Japan — Lanterns at Yasaka Shrine*
+![JP](/images/gallery/japan-aug2024/IMG_9259.JPG)
+*Nara, Japan — Sika Deer Resting at Nara Park*
+![JP](/images/gallery/japan-aug2024/IMG_9305.JPG)
+*Nara, Japan — Great Buddha Hall at Tōdai-ji*
+![JP](/images/gallery/japan-aug2024/IMG_9375.JPG)
+*Nara, Japan — Chūgen Mantōrō Lantern Festival at Kasuga Taisha (Illuminated Shrine)*
+![JP](/images/gallery/japan-aug2024/IMG_9409.JPG)
+*Nara, Japan — Chūgen Mantōrō Lantern Festival at Kasuga Taisha (Lantern-lit Corridor)*
+![JP](/images/gallery/japan-aug2024/IMG_9501.JPG)
+*Kyoto, Japan — Senbon Torii at Fushimi Inari Taisha*
+![JP](/images/gallery/japan-aug2024/IMG_9549.JPG)
+*Kyoto, Japan — Kinkaku-ji (Golden Pavilion)*
+![JP](/images/gallery/japan-aug2024/IMG_9599.JPG)
+*Kyoto, Japan — Daimonji Festival (Gozan no Okuribi)*
+![JP](/images/gallery/japan-aug2024/IMG_9647.JPG)
+*Tokyo, Japan — Shibuya Scramble Crossing at Night*
+![JP](/images/gallery/japan-aug2024/IMG_9695.JPG)
+*Tokyo, Japan — Shibuya Sky Observatory at Night*
+![JP](/images/gallery/japan-aug2024/IMG_9746.JPG)
+*Kamakura, Japan — Great Buddha of Kotoku-in Temple*
+![JP](/images/gallery/japan-aug2024/IMG_9802.JPG)
+*Kamakura, Japan — Kamakurakokomae Station*
 
 ---
 
