@@ -1,4 +1,4 @@
----
+<img width="1280" height="1332" alt="image" src="https://github.com/user-attachments/assets/37775ac5-9718-4291-9fba-cb7b6005c8f7" />---
 layout: single
 title: "Gallery"
 permalink: /gallery/
@@ -11,12 +11,64 @@ classes: wide
 *Yosemite, CA — Half Dome*
 ![CA](/images/gallery/jan2025us/4B4A2156.JPG)
 *Yosemite, CA — Falls*
-![CA](/images/gallery/jan2025us/4B4A2156.JPG)
+![CA](/images/gallery/jan2025us/4B4A2258.jpg)
 *San Francisco, CA — California Street & Bay Bridge*
-
-
-
-
+![CA](/images/gallery/jan2025us/4B4A2735.JPG)
+*San Francisco, CA — Golden Gate Bridge(Sunset)*
+![CA](/images/gallery/jan2025us/4B4A2741.JPG)
+*San Francisco, CA — Baker Beach(Sunset)*
+![CA](/images/gallery/jan2025us/4B4A3228.JPG)
+*San Francisco, CA — Baker Beach Trail*
+![CA](/images/gallery/jan2025us/4B4A3356.JPG)
+*Santa Monica, CA — Pier at Sunset*
+![CA](/images/gallery/jan2025us/4B4A3366.JPG)
+*Santa Monica, CA — Pacific Sunset*
+![NV](/images/gallery/jan2025us/4B4A3401.JPG)
+*Las Vegas, NV - Welcome!*
+![CA](/images/gallery/jan2025us/4B4A3439.JPG)
+*Death Valley, CA — Dante’s View*
+![](/images/gallery/jan2025us/4B4A3456.JPG)
+*Death Valley, CA — Zabriskie Point*
+![AZ](/images/gallery/jan2025us/4B4A3523.JPG)
+*Death Valley, CA — BadWater Basin*
+![AZ](/images/gallery/jan2025us/4B4A3667.JPG)
+*Death Valley, CA — Badwater Basin at Dusk*
+![AZ](/images/gallery/jan2025us/4B4A3690.JPG)
+*Death Valley, CA — Artists Drive*
+![](/images/gallery/jan2025us/4B4A3749.JPG)
+*Page, AZ — Antelope Canyon*
+![AZ](/images/gallery/jan2025us/4B4A3750.JPG)
+*Page, AZ — Antelope Canyon*
+![AZ](/images/gallery/jan2025us/4B4A3870.JPG)
+*Page, AZ — Horseshoe Bend*
+![UT](/images/gallery/jan2025us/4B4A3882.JPG)
+*Monument Valley, AZ/UT — Forrest Gump Point*
+![UT](/images/gallery/jan2025us/4B4A3907.JPG)
+*Arches, UT — La Sal Mountains View*
+![UT](/images/gallery/jan2025us/4B4A3940.JPG)
+*Arches, UT — Balanced Rock*
+![](/images/gallery/jan2025us/4B4A3951.JPG)
+*Arches, UT — Turret Arch (Windows Section)*
+![UT](/images/gallery/jan2025us/4B4A3958.JPG)
+*Arches, UT — Delicate Arch(Next time I will be right near it!)*
+![WY](/images/gallery/jan2025us/4B4A4035.JPG)
+*Grand Teton, WY — Entrance(fog day, what a pity)*
+![WY](/images/gallery/jan2025us/4B4A4044.JPG)
+*Wyoming, US — Snowy Mountain Highway*
+![WY](/images/gallery/jan2025us/4B4A4053.JPG)
+*Yellowstone, WY — Bison in Winter*
+![WY](/images/gallery/jan2025us/4B4A4084.JPG)
+*Yellowstone, WY — Frosted Pines*
+![WY](/images/gallery/jan2025us/4B4A4136.JPG)
+*Yellowstone, WY — Hot Spring Colors*
+![WY](/images/gallery/jan2025us/4B4A4148.JPG)
+*Yellowstone, WY — Old Faithful Geyser*
+![WY](/images/gallery/jan2025us/4B4A4317.JPG)
+*Yellowstone, WY — Winter Rapids*
+![WY](/images/gallery/jan2025us/4B4A4334.JPG)
+*Grand Teton, WY — Teton Range in Winter*
+![WY](/images/gallery/jan2025us/IMG_7152.JPG)
+*Yellowstone, WY — Welcome Sign(But took when we left.*
 
 
 ---
