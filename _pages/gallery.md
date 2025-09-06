@@ -377,5 +377,5 @@ I'm passionate about traveling and discovering the beauty, culture, and unique e
 ![CN](/images/gallery/xinjiang-jan2024/IMG_9313.JPG)
 *Pamir Plateau, Xinjiang — Dusk settles over the snow-draped peaks of Muztagh Ata*
 
-Need time to upload more...
+
 ---
