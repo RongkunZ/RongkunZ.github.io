@@ -8,10 +8,16 @@ classes: wide
 ## 🏔️ California & Arizona & Nevada & Utah & Idaho & Wyoming & Montana, USA - January 2025
 
 ![CA](/images/gallery/jan2025us/4B4A2030.jpg)
-*Yosemite*
+*Yosemite, CA — Half Dome*
+![CA](/images/gallery/jan2025us/4B4A2156.JPG)
+*Yosemite, CA — Falls*
+![CA](/images/gallery/jan2025us/4B4A2156.JPG)
+*San Francisco, CA — California Street & Bay Bridge*
 
-![Photo 2](/assets/images/gallery/2025-01-usa-west/photo2.jpg)
-*Caption here*
+
+
+
+
 
 ---
 
