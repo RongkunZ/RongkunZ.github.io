@@ -8,9 +8,9 @@ author_profile: true
 <!-- ===== Self Summary ===== -->
 I am currently a Master’s student in Computer Science at [Johns Hopkins University](https://www.jhu.edu/).
 
-My research interests lie in natural language processing and machine learning, with a focus on the reasoning capabilities of large language models. 
+My research interests lie in natural language processing and machine learning, with a focus on enhancing the reasoning capabilities of large language models.
 
-I aim to develop methods that improve structured reasoning, question answering, and information retrieval, ensuring that model outputs are not only fluent but also logically consistent, interpretable, and reliable in real-world applications.
+I aim to develop methods that improve structured reasoning, question answering, and information retrieval — ensuring that model outputs are logically consistent, interpretable, and robust — while contributing to the broader goal of building Reliable AI systems that are trustworthy and dependable in real-world applications.
 
 ## 🎓 Education
 - **[Johns Hopkins University](https://www.jhu.edu/)** — M.S. in Computer Science *(Expected Dec 2025)*  
