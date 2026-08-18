@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "   Rongkun Zhou"
+title                    : "Rongkun Zhou"
 title_separator          : "-"
 name                     : &name "Rongkun Zhou"
-description              : &description ""
+description              : &description "Rongkun Zhou — NLP, LLM reasoning, and reliable AI."
 url                      : 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "RongkunZ/RongkunZ.github.io"
@@ -25,9 +25,9 @@ author:
   avatar           : "personal/IMG_3575.JPG"
   name             : "Rongkun Zhou"
   pronouns         : # example: "she/her"  
-  bio              : "Turning Ideas into Impact"
-  location         : "Maryland, USA"
-  employer         : "Johns Hopkins University"
+  bio              : "NLP · LLM Reasoning · Reliable AI"
+  location         :
+  employer         :
   uri              :  # URL
   email            : "rzhou33@jh.edu"
 
