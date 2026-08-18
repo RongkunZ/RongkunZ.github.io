@@ -1,59 +1,18 @@
 ---
-layout: archive
+layout: single
 title: "Publications"
 permalink: /publications/
 author_profile: true
 classes: wide
 ---
 
-{% include base_path %}
+<p class="page-lead">Selected peer-reviewed work and preprints in language-model reasoning, evidence retrieval, optimization, and computer vision. My latest work focuses on reliable reasoning over complex evidence.</p>
 
-{% if site.author.googlescholar %}
-<div class="wordwrap">
-  You can also find my articles on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.
+<div class="publication-list">
+  <article class="publication-card publication-card--featured"><div class="publication-card__year">2026</div><div><div class="project-card__top"><span class="pill">COLM 2026</span><span>Accepted</span></div><h2>SciTaRC: Benchmarking QA on Scientific Tabular Data that Requires Language Reasoning and Complex Computation</h2><p class="authors">Hexuan Wang, Yaxuan Ren, Srikar Bommireddypalli, Shuxian Chen, Adarsh Prabhudesai, <strong>Rongkun Zhou</strong>, Elina Baral, and Philipp Koehn</p><p>SciTaRC introduces an expert-authored benchmark that separates comprehension, planning, and execution in scientific table question answering.</p><p class="link-row"><a href="https://arxiv.org/abs/2603.08910">Paper ↗</a><a href="https://github.com/JHU-CLSP/SciTaRC">Code ↗</a><a href="https://huggingface.co/datasets/JHU-CLSP/SciTaRC">Dataset ↗</a></p></div></article>
+  <article class="publication-card"><div class="publication-card__year">2026</div><div><div class="project-card__top"><span class="pill pill--soft">ACL Findings</span><span>Accepted</span></div><h2>How Grounded is Wikipedia? A Study on Structured Evidential Support and Retrieval</h2><p class="authors">William Walden, Kathryn Ricci, Miriam Wanner, Zhengping Jiang, Chandler May, <strong>Rongkun Zhou</strong>, and Benjamin Van Durme</p><p class="link-row"><a href="https://arxiv.org/abs/2506.12637">Paper ↗</a></p></div></article>
+  <article class="publication-card"><div class="publication-card__year">2023</div><div><h2>Research on Engineering Project Schedule Optimization Method Based on HRRN</h2><p class="authors"><strong>Rongkun Zhou</strong></p><p><em>International Conference on Electronics and Devices, Computational Science (ICEDCS)</em></p><p class="link-row"><a href="https://ieeexplore.ieee.org/document/10257881">Paper ↗</a></p></div></article>
+  <article class="publication-card"><div class="publication-card__year">2023</div><div><h2>Single Cell Morphology and Dynamic Signal Analysis Based on U-Net and DeepCell</h2><p class="authors"><strong>Rongkun Zhou</strong></p><p><em>IEEE International Conference on Image Processing and Computer Applications (ICIPCA)</em></p><p class="link-row"><a href="https://ieeexplore.ieee.org/document/10361795">Paper ↗</a></p></div></article>
 </div>
-{% endif %}
 
-{% comment %} Group publications by year, newest first {% endcomment %}
-{% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "p", "p.date | date: '%Y'" %}
-
-{% for group in pubs_by_year %}
-  <h3 style="margin-top:1.25rem">{{ group.name }}</h3>
-  {% for post in group.items %}
-    {% assign pub_id = post.slug | default: post.title | slugify %}
-    <div class="pub-item" style="margin:0 0 2rem 0">
-      <h2 class="archive__item-title" style="margin:0 0 .25rem 0">{{ post.title }}</h2>
-      
-      {% if post.authors %}
-      <p class="pub-authors" style="margin:.15rem 0">
-        {{ post.authors | markdownify | remove: '<p>' | remove: '</p>' }}
-      </p>
-      {% endif %}
-      
-      <p class="pub-meta" style="margin:.1rem 0 .4rem 0">
-        <i>{{ post.venue }}</i>, {{ post.date | date: '%Y' }}
-        {% if post.paperurl %} · <a href="{{ post.paperurl }}">Paper</a>{% endif %}
-        {% if post.arxiv %} / <a href="{{ post.arxiv }}">arXiv</a>{% endif %}
-        {% if post.codeurl %} / <a href="{{ post.codeurl }}">Code</a>{% endif %}
-        {% if post.bibtex %} / <a href="javascript:void(0);" onclick="toggleBibtex('{{ pub_id }}')">BibTeX</a>{% endif %}
-      </p>
-      
-      {% if post.bibtex %}
-      <div id="bibtex-{{ pub_id }}" style="display:none; margin-top:0.4rem; background-color:#f8f8f8; padding:1rem; border-radius:4px;">
-        <pre style="margin:0; white-space: pre-wrap;"><code>{{ post.bibtex | strip }}</code></pre>
-      </div>
-      {% endif %}
-    </div>
-  {% endfor %}
-{% endfor %}
-
-<script>
-function toggleBibtex(pubId) {
-  var el = document.getElementById("bibtex-" + pubId);
-  if (el && el.style.display === "none") {
-    el.style.display = "block";
-  } else if (el) {
-    el.style.display = "none";
-  }
-}
-</script>
+<p class="scholar-note">For the latest citation record, visit my <a href="https://scholar.google.com/citations?user=WkP_INYAAAAJ&hl=en">Google Scholar profile ↗</a>.</p>
