@@ -3,65 +3,53 @@ title: "Research & Projects"
 permalink: /research-project/
 layout: single
 author_profile: true
+classes: wide
 ---
 
-## 🧪 Research  
+<p class="page-lead">My work spans reliable language-model reasoning, information retrieval, computer vision, and applied machine learning. I am especially interested in understanding not only whether a model succeeds, but why it fails.</p>
 
-### Evidential Support Analysis in Wikipedia Biography Articles (Mar. 2025 – May. 2025)  
-**Role:** Research Assistant · *Advised by Prof. Benjamin Van Durme*  
-Created a benchmark of ~150K annotated claims from 1,485 Wikipedia articles to evaluate evidential support. Conducted BM25 and `trec_eval` evaluations across body-to-lead and source-to-body retrieval tasks. Extended framework with three dense retrievers (Inf-Retriever, NV-Embed, Ling-AI).  
-<span style="font-size:smaller">Co-authored paper on [arXiv:2506.12637](https://arxiv.org/abs/2506.12637).</span>  
-**Johns Hopkins University · Baltimore, MD**
+## Selected research
 
-### AstroPath Cell Structure Segmentation (Mar. 2025 – Aug. 2025)  
-**Role:** Research Contributor · *Advised by Prof. Alex Szalay & Prof. Janis Taube*  
-Supported application of UNSEG and CelloType models for region-level cell segmentation (e.g., cell wall, nucleus). Performed evaluation using DeepCell metrics as part of the AstroPath initiative.  
-**Johns Hopkins University · Baltimore, MD**
+<div class="project-list">
+  <article class="project-card project-card--featured">
+    <div class="project-card__top"><span class="pill">COLM 2026</span><span>Scientific table QA</span></div>
+    <h3>SciTaRC: Scientific Tabular Reasoning</h3>
+    <p>Co-developed an expert-authored benchmark of questions over scientific tables that require language understanding, strategic planning, and complex computation. Our evaluation exposes an execution bottleneck across leading proprietary and open-weight models.</p>
+    <p class="link-row"><a href="https://arxiv.org/abs/2603.08910">Paper ↗</a><a href="https://github.com/JHU-CLSP/SciTaRC">Code ↗</a><a href="https://huggingface.co/datasets/JHU-CLSP/SciTaRC">Dataset ↗</a></p>
+  </article>
 
-### Robust Active Learning under Distribution Shift (May. 2025 – Jul. 2025)  
-**Role:** Research Contributor · *Advised by Prof. Anqi Liu*  
-Explored baseline strategies for active learning under distribution shift, including G-optimal design, shift-pessimistic querying, and density-ratio-based uncertainty calibration. Contributed to implementation validation and pipeline integrity checks.  
-**Johns Hopkins University · Baltimore, MD**
+  <article class="project-card">
+    <div class="project-card__top"><span class="pill pill--soft">ACL 2026 Findings</span><span>Retrieval & grounding</span></div>
+    <h3>Structured Evidential Support in Wikipedia</h3>
+    <p>Contributed to a benchmark of roughly 150,000 annotated claims across 1,485 biography articles. Evaluated lexical and dense retrieval systems for tracing claims to supporting evidence.</p>
+    <p class="link-row"><a href="https://arxiv.org/abs/2506.12637">Paper ↗</a></p>
+  </article>
 
-### Label-Free Single-Cell Morphology and Signal Analysis (Jan. 2023 – Apr. 2023)  
-Proposed a U-Net-based segmentation model to extract cell morphology without labeling. Integrated DeepCell-based signal tracking for quantitative analysis.  
-<span style="font-size:smaller">Published at *2023 IEEE International Conference on Image Processing and Computer Applications*.</span>  
-**University of Minnesota · Twin Cities, MN**
+  <article class="project-card">
+    <div class="project-card__top"><span class="pill pill--soft">Research</span><span>Language agents</span></div>
+    <h3>Debugging Reasoning in Text Games</h3>
+    <p>Investigated failure modes in multi-step reasoning and decision-making in interactive fiction, using TALES and MindCoder to identify bottlenecks, stuck states, and opportunities for targeted intervention.</p>
+    <p class="link-row"><a href="https://arxiv.org/abs/2504.14128">TALES ↗</a><a href="https://arxiv.org/abs/2501.00775">MindCoder ↗</a></p>
+  </article>
 
-### Project Schedule Optimization via HRRN (Dec. 2022 – Feb. 2023)  
-Developed a multi-objective MIP framework with HRRN-based dynamic prioritization for complex project scheduling under uncertainty.  
-<span style="font-size:smaller">Published at *2023 International Conference on Electronics and Devices, Computational Science*.</span>  
-**University of Minnesota · Twin Cities, MN**
+  <article class="project-card">
+    <div class="project-card__top"><span class="pill pill--soft">Research</span><span>Computer vision</span></div>
+    <h3>AstroPath Cell-Structure Segmentation</h3>
+    <p>Supported region-level cell segmentation with UNSEG and CelloType and evaluated model outputs using DeepCell metrics for the AstroPath initiative.</p>
+  </article>
 
----
+  <article class="project-card">
+    <div class="project-card__top"><span class="pill pill--soft">Research</span><span>Active learning</span></div>
+    <h3>Robust Active Learning under Distribution Shift</h3>
+    <p>Explored G-optimal design, shift-pessimistic querying, and density-ratio calibration, with a focus on validating the experimental pipeline and its behavior under distribution shift.</p>
+  </article>
+</div>
 
-## 🎓 Academic Course Projects  
+## Selected engineering projects
 
-### Code-Switched Neural Machine Translation (Sep. 2025 – Dec. 2025)  
-**Course:** Machine Translation  
-Built a MarianMT/mBART system for translating code-switched text. Added language-aware attention, code-mixed GRU layers, and multi-task learning.  
-Achieved 69.8% BLEU improvement, with 80.14 BLEU on Spanish.  
-**Johns Hopkins University · Baltimore, MD**
-
-### Audio-to-Image Generation with Cross-Modal VAE (Sep. 2025 – Dec. 2025)  
-**Course:** Deep Learning  
-Built a Variational Autoencoder converting spoken digit audio (Audio-MNIST) into handwritten-style images. Fine-tuned an MNIST classifier for evaluation, achieving 82.29% recognition accuracy.  
-**Johns Hopkins University · Baltimore, MD**
-
-### Real-Time Object Detection for Gaming Aimbots (Sep. 2025 – Dec. 2025)  
-**Course:** Computer Vision  
-Analyzed YOLOv3/4/5 for FPS game screen detection. Integrated screen capture, preprocessing, and aiming pipeline.  
-YOLOv5 reached 92% detection accuracy and 34 FPS.  
-**Johns Hopkins University · Baltimore, MD**
-
-### The Travelers Companies Modeling Competition (Jul. 2022 – Sep. 2022)  
-**Role:** Project Lead  
-Conducted research on citation policies and built an XGBoost model to predict conversion rates for corporate citation strategies.  
-Proposed optimization solutions improving conversion by 8%.  
-**University of Minnesota · Twin Cities, MN**
-
-### Food Preference Analysis for American Sports Enthusiasts (Oct. 2022 – Dec. 2022)  
-**Role:** Project Lead  
-Surveyed Minnesota baseball fans to analyze food preferences.  
-Developed predictive models (weighted KNN, LASSO) to design customized catering strategies for Minneapolis-based sports events.  
-**University of Minnesota · Twin Cities, MN**
+<div class="card-grid card-grid--two">
+  <article class="research-card"><span class="card-index">NLP</span><h3>Code-Switched Machine Translation</h3><p>Built a multilingual translation system with language-aware representations and multi-task learning for code-mixed inputs.</p></article>
+  <article class="research-card"><span class="card-index">CV</span><h3>Real-Time Object Detection</h3><p>Developed a real-time detection and tracking pipeline for FPS gameplay, reaching 92% detection accuracy at 34 FPS.</p></article>
+  <article class="research-card"><span class="card-index">DL</span><h3>Audio-to-Image Generation</h3><p>Built a cross-modal variational autoencoder that maps spoken digits to handwritten digit images.</p></article>
+  <article class="research-card"><span class="card-index">ML</span><h3>Travelers Modeling Competition</h3><p>Led an XGBoost-based conversion modeling project and proposed strategies projected to improve conversion by 8%.</p></article>
+</div>
