@@ -8,9 +8,9 @@ classes: portfolio-page home-page
 
 <section class="home-hero reveal">
   <div class="home-hero__copy">
-    <p class="eyebrow">NLP · LLM REASONING · RELIABLE AI</p>
-    <h1>Making machine reasoning <em>useful, grounded, and dependable.</em></h1>
-    <p class="hero-copy">I’m Rongkun Zhou, a computer scientist working across language-model reasoning, evidence retrieval, and applied machine learning. I study where intelligent systems fail—and how to make their decisions more reliable.</p>
+    <p class="eyebrow">RONGKUN ZHOU · RESEARCH & ENGINEERING</p>
+    <h1>I build AI systems that <em>reason from evidence.</em></h1>
+    <p class="hero-copy">I’m a computer scientist at Johns Hopkins working on language-model reasoning, scientific table QA, retrieval, and applied machine learning. I turn model failures into measurable questions—and practical ways to make intelligent systems more reliable.</p>
     <div class="hero-actions">
       <a class="action action--primary" href="/research-project/">Explore selected work <span>↗</span></a>
       <a class="action action--secondary" href="/files/CV_RongkunZhou.pdf">Download CV <span>↓</span></a>
@@ -26,8 +26,8 @@ classes: portfolio-page home-page
 </section>
 
 <section class="signal-bar reveal" aria-label="Profile highlights">
-  <div><span>Latest publication</span><strong>COLM 2026</strong></div>
-  <div><span>Primary focus</span><strong>Reasoning & Grounding</strong></div>
+  <div><span>Latest paper</span><strong>SciTaRC · COLM 2026</strong></div>
+  <div><span>Research focus</span><strong>Evidence-grounded reasoning</strong></div>
   <div><span>Experience</span><strong>Research × Industry</strong></div>
   <div><span>Background</span><strong>CS · Math · Statistics</strong></div>
 </section>
