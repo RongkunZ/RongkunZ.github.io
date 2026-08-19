@@ -3,6 +3,22 @@ document.documentElement.classList.add('motion-ready');
 
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+const themeButton = document.querySelector('#theme-toggle button');
+const themeIcon = document.querySelector('#theme-icon');
+const syncThemeControl = () => {
+  const dark = document.documentElement.dataset.theme === 'dark';
+  themeButton?.setAttribute('aria-label', dark ? 'Use light theme' : 'Use dark theme');
+  if (themeIcon) themeIcon.className = dark ? 'fa-solid fa-moon' : 'fa-solid fa-sun';
+};
+syncThemeControl();
+themeButton?.addEventListener('click', (event) => {
+  event.stopPropagation();
+  const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+  document.documentElement.dataset.theme = next;
+  try { localStorage.setItem('theme', next); } catch (error) { /* Storage may be unavailable. */ }
+  syncThemeControl();
+});
+
 const progress = document.querySelector('.reading-progress span');
 const backToTop = document.querySelector('.back-to-top');
 const portraitImage = document.querySelector('.home-hero__portrait img');
