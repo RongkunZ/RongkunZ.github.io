@@ -10,33 +10,14 @@ layout: compress
     {% include head.html %}
     {% include head/custom.html %}
   </head>
-
   <body>
-
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="reading-progress" aria-hidden="true"><span></span></div>
     {% include browser-upgrade.html %}
     {% include masthead.html %}
-
     {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
-
+    <div class="page__footer"><footer>{% include footer.html %}</footer></div>
+    <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
     {% include scripts.html %}
-    <div style="text-align:center; margin-top:20px;">
-  <div style="display:inline-block; width:320px; height:200px; overflow:hidden;">
-    <script
-      type="text/javascript"
-      id="mapmyvisitors"
-      src="//mapmyvisitors.com/map.js?d=uVOnPzbnu4G1ic2vusvZTtAdpfenj-5hpUr1Ym3eMAY&cl=ffffff&w=a">
-    </script>
-  </div>
-</div>
-
-
-
   </body>
 </html>
