@@ -8,7 +8,7 @@ classes: portfolio-page gallery-page
 
 <header class="page-intro reveal"><p class="eyebrow">PHOTOGRAPHY & TRAVEL</p><h1>Places that changed the way I look.</h1><p>A curated visual journal from mountains, cities, deserts, and coastlines. Select a region, then open any image for a closer view.</p></header>
 
-<div class="filter-bar reveal" data-filter-group="gallery"><button class="is-active" data-filter="all" aria-pressed="true">All places</button><button data-filter="north-america" aria-pressed="false">North America</button><button data-filter="asia" aria-pressed="false">Asia</button><button data-filter="mena-caucasus" aria-pressed="false">MENA & Caucasus</button></div>
+<div class="filter-bar reveal" data-filter-group="gallery"><button type="button" class="is-active" data-filter="all" aria-pressed="true">All places</button><button type="button" data-filter="north-america" aria-pressed="false">North America</button><button type="button" data-filter="asia" aria-pressed="false">Asia</button><button type="button" data-filter="mena-caucasus" aria-pressed="false">MENA & Caucasus</button></div>
 
 <section class="photo-grid" aria-live="polite">
   <figure class="photo-card photo-card--tall reveal" data-filter-item data-region="north-america"><button class="gallery-button" data-full="/images/gallery/jan2025us/4B4A2030.jpg" data-caption="Half Dome · Yosemite, California"><img loading="lazy" src="/images/gallery/jan2025us/4B4A2030.jpg" alt="Half Dome in Yosemite"><span>Yosemite, California</span></button></figure>
