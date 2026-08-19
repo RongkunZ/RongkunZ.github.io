@@ -2,54 +2,24 @@
 title: "Research & Projects"
 permalink: /research-project/
 layout: single
-author_profile: true
-classes: wide
+author_profile: false
+classes: portfolio-page
 ---
 
-<p class="page-lead">My work spans reliable language-model reasoning, information retrieval, computer vision, and applied machine learning. I am especially interested in understanding not only whether a model succeeds, but why it fails.</p>
+<header class="page-intro reveal"><p class="eyebrow">SELECTED WORK · 2022–2026</p><h1>Research that diagnoses failure—and engineering that ships.</h1><p>I work across reliable LLM reasoning, information retrieval, computer vision, and applied machine learning. The common thread is evaluation: understanding what works, where it breaks, and what the evidence actually supports.</p></header>
 
-## Selected research
+<div class="filter-bar reveal" data-filter-group="work"><button type="button" class="is-active" data-filter="all" aria-pressed="true">All work</button><button type="button" data-filter="research" aria-pressed="false">Research</button><button type="button" data-filter="engineering" aria-pressed="false">Engineering</button></div>
 
-<div class="project-list">
-  <article class="project-card project-card--featured">
-    <div class="project-card__top"><span class="pill">COLM 2026</span><span>Scientific table QA</span></div>
-    <h3>SciTaRC: Scientific Tabular Reasoning</h3>
-    <p>Co-developed an expert-authored benchmark of questions over scientific tables that require language understanding, strategic planning, and complex computation. Our evaluation exposes an execution bottleneck across leading proprietary and open-weight models.</p>
-    <p class="link-row"><a href="https://arxiv.org/abs/2603.08910">Paper ↗</a><a href="https://github.com/JHU-CLSP/SciTaRC">Code ↗</a><a href="https://huggingface.co/datasets/JHU-CLSP/SciTaRC">Dataset ↗</a></p>
-  </article>
+<section class="work-grid" aria-live="polite">
+  <article class="work-card work-card--hero reveal" data-filter-item data-kind="research"><div class="work-card__meta"><span class="pill">COLM 2026</span><span>Language reasoning · Benchmarking</span></div><h2>SciTaRC: Scientific Tabular Reasoning</h2><p>Co-developed an expert-authored benchmark that tests language understanding, strategic planning, and complex computation over tables from scientific papers. Our study identifies execution compliance—not strategy formation—as a dominant bottleneck.</p><div class="work-card__facts"><span><strong>23%+</strong> failure rate for state-of-the-art systems</span><span><strong>Expert-authored</strong> questions and plans</span></div><div class="link-row"><a href="https://arxiv.org/abs/2603.08910">Paper ↗</a><a href="https://github.com/JHU-CLSP/SciTaRC">Code ↗</a><a href="https://huggingface.co/datasets/JHU-CLSP/SciTaRC">Dataset ↗</a></div></article>
+  <article class="work-card reveal" data-filter-item data-kind="research"><div class="work-card__meta"><span class="pill pill--soft">ACL 2026 Findings</span><span>Retrieval · Grounding</span></div><h2>How Grounded is Wikipedia?</h2><p>Contributed to a benchmark of approximately 150,000 annotated claims from 1,485 biography articles and evaluated lexical and dense retrieval systems for tracing claims to supporting evidence.</p><div class="link-row"><a href="https://arxiv.org/abs/2506.12637">Paper ↗</a></div></article>
+  <article class="work-card reveal" data-filter-item data-kind="research"><div class="work-card__meta"><span class="pill pill--soft">Research</span><span>Language agents</span></div><h2>Debugging Reasoning in Text Games</h2><p>Investigated failure modes and stuck states in interactive fiction using TALES and MindCoder, with emphasis on long-horizon decisions and targeted intervention.</p><div class="link-row"><a href="https://arxiv.org/abs/2504.14128">TALES ↗</a><a href="https://arxiv.org/abs/2501.00775">MindCoder ↗</a></div></article>
+  <article class="work-card reveal" data-filter-item data-kind="research"><div class="work-card__meta"><span class="pill pill--soft">Research</span><span>Computer vision</span></div><h2>AstroPath Cell-Structure Segmentation</h2><p>Supported region-level cell segmentation with UNSEG and CelloType and evaluated outputs using DeepCell metrics for the AstroPath initiative.</p></article>
+  <article class="work-card reveal" data-filter-item data-kind="research"><div class="work-card__meta"><span class="pill pill--soft">Research</span><span>Active learning</span></div><h2>Robust Active Learning under Distribution Shift</h2><p>Explored G-optimal design, shift-pessimistic querying, and density-ratio calibration while validating pipeline behavior under distribution shift.</p></article>
+  <article class="work-card reveal" data-filter-item data-kind="engineering"><div class="work-card__meta"><span class="code-label">NLP</span><span>Machine translation</span></div><h2>Code-Switched Neural Machine Translation</h2><p>Built a multilingual translation system with language-aware representations and multi-task learning for code-mixed inputs.</p></article>
+  <article class="work-card reveal" data-filter-item data-kind="engineering"><div class="work-card__meta"><span class="code-label">CV</span><span>Real-time systems</span></div><h2>Object Detection & Tracking</h2><p>Developed an end-to-end gameplay detection and tracking pipeline, reaching 92% detection accuracy at 34 FPS.</p><div class="link-row"><a href="https://github.com/RongkunZ/ProjectShootingBot_JHU">Repository ↗</a></div></article>
+  <article class="work-card reveal" data-filter-item data-kind="engineering"><div class="work-card__meta"><span class="code-label">DL</span><span>Cross-modal generation</span></div><h2>Audio-to-Image Generation</h2><p>Built a variational autoencoder that maps spoken digit audio to handwritten-style images and evaluated outputs with a fine-tuned classifier.</p></article>
+  <article class="work-card reveal" data-filter-item data-kind="engineering"><div class="work-card__meta"><span class="code-label">ML</span><span>Competition · 1st place</span></div><h2>Travelers Modeling Competition</h2><p>Led an XGBoost-based conversion modeling project on more than 80,000 records. Improved AUC by 13%, reduced RMSE by 21%, and proposed strategies with an expected 8% conversion uplift.</p></article>
+</section>
 
-  <article class="project-card">
-    <div class="project-card__top"><span class="pill pill--soft">ACL 2026 Findings</span><span>Retrieval & grounding</span></div>
-    <h3>Structured Evidential Support in Wikipedia</h3>
-    <p>Contributed to a benchmark of roughly 150,000 annotated claims across 1,485 biography articles. Evaluated lexical and dense retrieval systems for tracing claims to supporting evidence.</p>
-    <p class="link-row"><a href="https://arxiv.org/abs/2506.12637">Paper ↗</a></p>
-  </article>
-
-  <article class="project-card">
-    <div class="project-card__top"><span class="pill pill--soft">Research</span><span>Language agents</span></div>
-    <h3>Debugging Reasoning in Text Games</h3>
-    <p>Investigated failure modes in multi-step reasoning and decision-making in interactive fiction, using TALES and MindCoder to identify bottlenecks, stuck states, and opportunities for targeted intervention.</p>
-    <p class="link-row"><a href="https://arxiv.org/abs/2504.14128">TALES ↗</a><a href="https://arxiv.org/abs/2501.00775">MindCoder ↗</a></p>
-  </article>
-
-  <article class="project-card">
-    <div class="project-card__top"><span class="pill pill--soft">Research</span><span>Computer vision</span></div>
-    <h3>AstroPath Cell-Structure Segmentation</h3>
-    <p>Supported region-level cell segmentation with UNSEG and CelloType and evaluated model outputs using DeepCell metrics for the AstroPath initiative.</p>
-  </article>
-
-  <article class="project-card">
-    <div class="project-card__top"><span class="pill pill--soft">Research</span><span>Active learning</span></div>
-    <h3>Robust Active Learning under Distribution Shift</h3>
-    <p>Explored G-optimal design, shift-pessimistic querying, and density-ratio calibration, with a focus on validating the experimental pipeline and its behavior under distribution shift.</p>
-  </article>
-</div>
-
-## Selected engineering projects
-
-<div class="card-grid card-grid--two">
-  <article class="research-card"><span class="card-index">NLP</span><h3>Code-Switched Machine Translation</h3><p>Built a multilingual translation system with language-aware representations and multi-task learning for code-mixed inputs.</p></article>
-  <article class="research-card"><span class="card-index">CV</span><h3>Real-Time Object Detection</h3><p>Developed a real-time detection and tracking pipeline for FPS gameplay, reaching 92% detection accuracy at 34 FPS.</p></article>
-  <article class="research-card"><span class="card-index">DL</span><h3>Audio-to-Image Generation</h3><p>Built a cross-modal variational autoencoder that maps spoken digits to handwritten digit images.</p></article>
-  <article class="research-card"><span class="card-index">ML</span><h3>Travelers Modeling Competition</h3><p>Led an XGBoost-based conversion modeling project and proposed strategies projected to improve conversion by 8%.</p></article>
-</div>
+<section class="next-page reveal"><p>See where the work was applied</p><a href="/industry-experience/">Industry Experience <span>→</span></a></section>
