@@ -1,4 +1,5 @@
 document.documentElement.classList.remove('no-js');
+document.documentElement.classList.add('motion-ready');
 
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
