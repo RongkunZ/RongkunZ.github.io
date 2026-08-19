@@ -5,11 +5,17 @@ const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').match
 
 const progress = document.querySelector('.reading-progress span');
 const backToTop = document.querySelector('.back-to-top');
+const portraitImage = document.querySelector('.home-hero__portrait img');
 const updateScrollUI = () => {
   const max = document.documentElement.scrollHeight - window.innerHeight;
   const ratio = max > 0 ? window.scrollY / max : 0;
   if (progress) progress.style.transform = `scaleX(${Math.min(1, Math.max(0, ratio))})`;
   if (backToTop) backToTop.classList.toggle('is-visible', window.scrollY > 700);
+  if (portraitImage && !reduceMotion) {
+    const rect = portraitImage.parentElement.getBoundingClientRect();
+    const offset = Math.max(-18, Math.min(18, (window.innerHeight / 2 - (rect.top + rect.height / 2)) * .035));
+    portraitImage.style.transform = `translate3d(0, ${offset}px, 0) scale(1.06)`;
+  }
 };
 window.addEventListener('scroll', updateScrollUI, { passive: true });
 updateScrollUI();
@@ -22,6 +28,7 @@ document.querySelectorAll('[data-nav-link]').forEach((link) => {
 });
 
 const revealItems = document.querySelectorAll('.reveal');
+revealItems.forEach((item, index) => item.style.setProperty('--reveal-delay', `${(index % 4) * 55}ms`));
 if (reduceMotion || !('IntersectionObserver' in window)) {
   revealItems.forEach((item) => item.classList.add('is-visible'));
 } else {
