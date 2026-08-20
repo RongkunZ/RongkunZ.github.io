@@ -31,6 +31,6 @@ classes: portfolio-page gallery-page
   <figure class="photo-card reveal" data-filter-item data-region="mena-caucasus"><button type="button" class="gallery-button" data-full="/images/gallery/azerbaijan-may2024/IMG_1609.JPG" data-caption="Heydar Aliyev Center · Baku"><img loading="lazy" src="/images/gallery/azerbaijan-may2024/IMG_1609.JPG" alt="Heydar Aliyev Center in Baku"><span>Baku, Azerbaijan</span></button></figure>
 </section>
 
-<dialog class="gallery-dialog" id="gallery-dialog"><button class="dialog-close" type="button" aria-label="Close image">×</button><img alt=""><p></p></dialog>
+<dialog class="gallery-dialog" id="gallery-dialog"><button class="dialog-close" type="button" aria-label="Close image"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button><img alt=""><p></p></dialog>
 
 <section class="next-page reveal"><p>Professional overview</p><a href="/cv/">Curriculum Vitae <span>→</span></a></section>
