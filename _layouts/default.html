@@ -5,9 +5,9 @@ layout: compress
 {% include base_path %}
 
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js" data-theme-mode="auto">
   <head>
-    <script>try{const theme=localStorage.getItem('theme');if(theme==='dark'||theme==='light')document.documentElement.dataset.theme=theme;}catch(error){}</script>
+    <script>try{const mode=localStorage.getItem('themeMode')||'auto';const hour=new Date().getHours();const theme=mode==='auto'?(hour>=7&&hour<19?'light':'dark'):mode;document.documentElement.dataset.themeMode=mode;document.documentElement.dataset.theme=theme;}catch(error){const hour=new Date().getHours();document.documentElement.dataset.theme=hour>=7&&hour<19?'light':'dark';}</script>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
@@ -18,7 +18,7 @@ layout: compress
     {% include masthead.html %}
     {{ content }}
     <div class="page__footer"><footer>{% include footer.html %}</footer></div>
-    <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+    <button class="back-to-top" type="button" aria-label="Back to top"><i class="fa-solid fa-arrow-up" aria-hidden="true"></i></button>
     {% include scripts.html %}
   </body>
 </html>
