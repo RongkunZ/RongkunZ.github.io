@@ -17,7 +17,7 @@ const applyTheme = (mode, persist = false) => {
   const theme = safeMode === 'auto' ? automaticTheme() : safeMode;
   root.dataset.themeMode = safeMode;
   root.dataset.theme = theme;
-  if (themeMeta) themeMeta.content = theme === 'dark' ? '#090a0c' : '#f4f1ea';
+  if (themeMeta) themeMeta.content = theme === 'dark' ? '#141512' : '#f2f0ea';
   if (themeButton) {
     const current = safeMode === 'auto' ? `automatic · ${theme}` : safeMode;
     themeButton.dataset.mode = safeMode;
@@ -63,21 +63,17 @@ const updateScrollUI = () => {
 
   if (hero && !reduceMotion) {
     const ratio = clamp(window.scrollY / Math.max(hero.offsetHeight, 1));
-    hero.style.setProperty('--hero-y', `${ratio * -34}px`);
-    hero.style.setProperty('--hero-image-y', `${ratio * 42}px`);
-    hero.style.setProperty('--hero-scale', String(1.045 + ratio * .035));
+    hero.style.setProperty('--hero-y', `${ratio * -28}px`);
+    hero.style.setProperty('--hero-image-y', `${ratio * 34}px`);
+    hero.style.setProperty('--hero-scale', String(1.02 + ratio * .045));
   }
 
   if (researchStage) {
     const rect = researchStage.getBoundingClientRect();
-    const entrance = clamp((viewport - rect.top) / (viewport * 1.06));
-    const travel = clamp((viewport - rect.top) / Math.max(rect.height + viewport, 1));
     if (!reduceMotion) {
-      researchStage.style.setProperty('--research-clip', `${(1 - entrance) * 10}%`);
-      researchStage.style.setProperty('--research-image-y', `${(travel - .45) * 54}px`);
-      researchStage.style.setProperty('--research-scale', String(1.045 - travel * .045));
+      const titleTravel = clamp((viewport - rect.top) / (viewport * 2.2));
+      researchStage.style.setProperty('--research-y', `${titleTravel * -24}px`);
     }
-    document.body.classList.toggle('research-active', rect.top <= 66 && rect.bottom > 66);
   }
 };
 
@@ -87,15 +83,6 @@ const requestScrollUpdate = () => {
 window.addEventListener('scroll', requestScrollUpdate, { passive: true });
 window.addEventListener('resize', requestScrollUpdate, { passive: true });
 updateScrollUI();
-
-if (hero && !reduceMotion && window.matchMedia('(pointer: fine)').matches) {
-  hero.addEventListener('pointermove', (event) => {
-    const rect = hero.getBoundingClientRect();
-    const x = ((event.clientX - rect.left) / rect.width - .5) * -12;
-    hero.style.setProperty('--hero-x', `${x}px`);
-  });
-  hero.addEventListener('pointerleave', () => hero.style.setProperty('--hero-x', '0px'));
-}
 
 window.addEventListener('load', () => document.body.classList.add('hero-ready'), { once: true });
 if (document.readyState === 'complete') requestAnimationFrame(() => document.body.classList.add('hero-ready'));

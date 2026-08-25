@@ -2,48 +2,56 @@
 
 ## Evidence
 
-- Source visual truth: `/workspace/scratch/ce862da56c40/generated_images/exec-b8146804-b90e-4966-ab2c-4007ad23e4ab.png`
-- Browser-rendered implementation, light hero: `/workspace/scratch/rongkun-preview-home-final.jpg`
-- Browser-rendered implementation, research chapter: `/workspace/scratch/rongkun-preview-research-final.jpg`
-- Normalized side-by-side comparison: `/workspace/scratch/rongkun-design-comparison.jpg`
-- Source pixels: 864 × 1821.
-- Implementation captures: 1348 × 926 pixels each, stacked to 1348 × 1852.
-- CSS viewport: 1363 × 936; device density: 1×. The source was scaled to 1852 px high and placed beside the stacked implementation captures for composition-level comparison.
-- State: desktop, automatic daytime/light theme; second capture at `scrollY = 1024` with the black research chapter active.
+- Source visual truth, live hero before refinement: `/workspace/scratch/01-live-hero.png`
+- Source visual truth, live research chapter before refinement: `/workspace/scratch/02-live-research.png`
+- Browser-rendered implementation, refined hero: `/workspace/scratch/07-local-hero-refined.png`
+- Browser-rendered implementation, refined research title: `/workspace/scratch/05-local-research.png`
+- Browser-rendered implementation, reasoning sequence: `/workspace/scratch/08-local-sequence.png`
+- Browser-rendered implementation, dark mode: `/workspace/scratch/12-local-dark.png`
+- Browser-rendered implementation, unified footer: `/workspace/scratch/13-local-footer-refined.png`
+- Full-view comparison evidence: `/workspace/scratch/qa-comparison-home.jpg` and `/workspace/scratch/qa-comparison-research.jpg`
+- Source and implementation captures: 1363 × 936 pixels.
+- CSS viewport: 1363 × 936; device density: 1×. Source and implementation captures were matched without density scaling.
+- State: desktop, automatic daytime/light theme. Dark-mode behavior was captured separately.
 
 ## Findings
 
-- No remaining P0, P1, or P2 differences.
-- Typography: the implementation matches the reference's modern grotesk hierarchy, compact display tracking, serif italic emphasis, and large SciTaRC title. The production version uses the system's native San Francisco/Helvetica stack rather than loading a lookalike webfont, improving rendering quality and avoiding a generic template feel.
-- Spacing and layout rhythm: the hero preserves the left editorial statement/right portrait relationship. The implementation intentionally gives SciTaRC its own screen before the table visual; this is a faithful Apple-like one-focus-per-screen interpretation rather than a density mismatch.
-- Colors and tokens: ivory, neutral black, warm white, and restrained cobalt are consistent across both themes and all sections. The black research chapter remains the same authored visual object in daytime and nighttime themes.
-- Image quality: the hero uses the supplied 3024 × 4032 original portrait, not a generated person. The SciTaRC table asset is a dedicated high-resolution raster with the selected mock's art direction; there are no placeholder drawings or CSS-generated research graphics.
-- Copy and content: all visible claims are sourced from the existing portfolio content. SciTaRC's COLM 2026 status is reflected consistently. No invented metrics, awards, affiliations, or publication details were added.
-- Focused region comparison: the hero and research chapter were inspected separately at full viewport size because the reference is a tall composite. The portrait crop, headline wrap, SciTaRC optical scale, local chapter navigation, and table-visual legibility were all readable at this scale.
+- No remaining P0, P1, or P2 findings.
+- Fonts and typography: one native system sans family now carries navigation, display, body, and data labels, with a restrained editorial serif used only for the key word “evidence” and one result emphasis. The refined hero fixes the original five-line wrap and maintains readable body copy.
+- Spacing and layout rhythm: the portrait, homepage copy, SciTaRC title, reasoning sequence, afterword, and footer use the same 1200 px grid, border weight, and vertical rhythm. The duplicate research navigation and isolated black chapter were removed.
+- Colors and visual tokens: the page uses one warm-ivory/graphite/muted-blue system. Dark mode maps the same semantic tokens to warm near-black and soft blue rather than introducing a different visual world. Footer, research, cards, filters, and dialogs all inherit these tokens.
+- Image quality and asset fidelity: the hero uses the supplied original portrait with a stable desktop crop. The unreferenced abstract research graphic was removed from the visible experience; no placeholder, CSS drawing, inline SVG, or generated research imagery remains.
+- Copy and content: homepage language is more direct and specific. SciTaRC remains accurately described as accepted at COLM 2026, and the three-stage explanation preserves the benchmark’s comprehension/planning/execution logic.
+- Focused-region evidence: the reasoning sequence and footer were inspected independently because their text and dividers are too small to judge in the full-height comparison. Both preserve the same type, line, and color tokens as the hero.
 
 ## Comparison History
 
-1. Initial browser pass:
-   - [P1] Base navigation list items retained white backgrounds inside the black research state.
-   - [P2] The research chapter navigation was hidden beneath the fixed global masthead.
-   - [P2] The theme control behaved as a two-state override instead of the specified automatic/light/dark cycle.
-2. Fixes:
-   - Forced navigation list backgrounds to transparent and moved the theme control to the far edge of the full-width navigation row.
-   - Positioned the sticky research navigation 64 px below the masthead.
-   - Implemented the explicit `auto → light → dark → auto` cycle while keeping local-time selection as the default.
-3. Post-fix evidence:
-   - The research-state screenshot shows a continuous neutral-black masthead and visible local chapter navigation.
-   - Browser interaction confirmed all three theme modes in order.
-   - The primary hero anchor moved from `scrollY = 0` to the research target at `scrollY = 975`.
+1. Source audit:
+   - [P1] The light portrait hero, pure-black SciTaRC chapter, light afterword, and black footer read as separate sites.
+   - [P1] A second sticky research navigation competed with the global navigation.
+   - [P2] Cards, timeline panels, footer, and gallery used different radii, shadows, colors, and spacing rules.
+   - [P2] Hero, section reveals, black-stage clip, hover lifts, and pointer parallax created several unrelated motion vocabularies.
+2. First implementation pass:
+   - Unified the palette, removed the second navigation, replaced the black research chapter with a continuous editorial case study, and reduced motion to entrance rhythm plus scroll-linked image/title movement.
+   - [P2] The first browser capture wrapped the hero headline into five lines, leaving “with” isolated.
+   - [P2] The local preview footer still contained the previous hard-coded footer copy.
+3. Fixes:
+   - Reduced the desktop headline scale and rebalanced the copy column to produce a deliberate four-line composition.
+   - Updated and restarted the local preview shell so the footer matches production source.
+4. Post-fix evidence:
+   - Side-by-side captures show one continuous palette and a stable left-copy/right-portrait composition.
+   - The research comparison shows the title retained as the visual anchor without changing the site’s color world.
+   - The focused sequence capture shows consistent dividers, baseline alignment, and staged reveal behavior.
 
 ## Browser Verification
 
-- Primary interactions tested: hero anchor navigation, sticky research chapter transition, automatic/light/dark theme cycle, navigation presence, scroll-linked progress and research state.
-- Console checked: no errors from `terminal.local`; only unrelated browser-extension metadata errors were present.
-- Responsive CSS includes dedicated 900 px and 680 px breakpoints, mobile image positioning, mobile headline scaling, reduced chapter navigation, and `prefers-reduced-motion` fallbacks.
+- Primary interactions tested: hero-to-research anchor, smooth back-to-top completion, automatic/light/dark/automatic theme cycle, scroll-linked hero movement, scroll-linked SciTaRC title movement, and staged content reveals.
+- Theme state returned to automatic daytime/light after the interaction test.
+- Console checked: no warnings or errors from `terminal.local`. Browser-extension metadata errors were excluded as unrelated to the site.
+- Responsive behavior is defined at 980 px, 760 px, and 520 px, with a single-column mobile hero, readable research rows, simplified grids, and `prefers-reduced-motion` fallbacks.
 
 ## Follow-up Polish
 
-- P3: a future iteration could add a bespoke mobile-only crop of the source portrait, but the current responsive crop preserves both the subject and mountain context.
+- P3: the cloud browser did not expose a resizable viewport in this run, so the mobile breakpoints were checked from source and compiled CSS rather than a separate mobile screenshot.
 
 final result: passed
