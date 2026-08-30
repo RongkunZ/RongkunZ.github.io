@@ -2,23 +2,47 @@
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
-        <button type="button" aria-label="Open navigation"><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist">
-            <a class="brand-lockup" href="{{ base_path }}/" aria-label="Rongkun Zhou — Home"><span class="brand-name">Rongkun Zhou</span></a>
+    <nav id="portfolio-nav" class="portfolio-nav" aria-label="Primary navigation">
+      <a class="brand-lockup" href="{{ base_path }}/" aria-label="Rongkun Zhou — Home">
+        <span class="brand-name">Rongkun Zhou</span>
+        <span class="brand-mark" aria-hidden="true"></span>
+      </a>
+
+      <ul class="portfolio-nav__links">
+        {% for link in site.data.navigation.main %}
+          {% if link.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = base_path %}{% endif %}
+          <li><a data-nav-link href="{{ domain }}{{ link.url }}"{% if link.title == 'CV' %} class="portfolio-nav__cv"{% endif %}>{{ link.title }}</a></li>
+        {% endfor %}
+      </ul>
+
+      <div class="portfolio-nav__actions">
+        <button class="theme-switch" type="button" data-theme-toggle aria-label="Color theme: automatic" title="Theme: automatic">
+          <i data-theme-icon class="fa-solid fa-circle-half-stroke" aria-hidden="true"></i>
+        </button>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="portfolio-menu">
+          <span class="menu-toggle__label">Menu</span>
+          <span class="menu-toggle__icon" aria-hidden="true"><i></i><i></i></span>
+        </button>
+      </div>
+    </nav>
+  </div>
+
+  <div id="portfolio-menu" class="portfolio-menu" data-menu-panel aria-hidden="true">
+    <div class="portfolio-menu__inner">
+      <p class="portfolio-menu__kicker">Explore the work</p>
+      <ol>
+        {% for link in site.data.navigation.main %}
+          {% if link.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = base_path %}{% endif %}
+          <li>
+            <a data-nav-link href="{{ domain }}{{ link.url }}">
+              <span>0{{ forloop.index }}</span>
+              <strong>{{ link.title }}</strong>
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
           </li>
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}{% assign domain = '' %}{% else %}{% assign domain = base_path %}{% endif %}
-            <li class="masthead__menu-item"><a data-nav-link href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
-          <li id="theme-toggle" class="masthead__menu-item persist tail">
-            <button type="button" aria-label="Color theme: automatic" title="Theme: automatic"><i id="theme-icon" class="fa-solid fa-circle-half-stroke" aria-hidden="true"></i></button>
-          </li>
-        </ul>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
+        {% endfor %}
+      </ol>
+      <p class="portfolio-menu__note">Research in reliable reasoning, evidence grounding, and applied machine learning.</p>
     </div>
   </div>
 </div>

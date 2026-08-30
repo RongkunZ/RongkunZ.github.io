@@ -20,4 +20,4 @@ classes: portfolio-page
 
 <section class="capability-panel reveal"><div><p class="eyebrow">TOOLKIT</p><h2>Built to move between research and production.</h2></div><div class="capability-cloud"><span>Python</span><span>SQL</span><span>PyTorch</span><span>TensorFlow</span><span>scikit-learn</span><span>LLM evaluation</span><span>Information retrieval</span><span>Forecasting</span><span>A/B testing</span><span>Tableau</span><span>Power BI</span><span>Git</span></div></section>
 
-<section class="next-page reveal"><p>Read the research record</p><a href="/publications/">Publications <span>→</span></a></section>
+<section class="next-page reveal"><p>Beyond the work</p><a href="/gallery/">Photography & Travel <span>→</span></a></section>
