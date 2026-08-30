@@ -22,4 +22,4 @@ classes: portfolio-page
   <article class="work-card reveal" data-filter-item data-kind="engineering"><div class="work-card__meta"><span class="code-label">ML</span><span>Competition · 1st place</span></div><h2>Travelers Modeling Competition</h2><p>Led an XGBoost-based conversion modeling project on more than 80,000 records. Improved AUC by 13%, reduced RMSE by 21%, and proposed strategies with an expected 8% conversion uplift.</p></article>
 </section>
 
-<section class="next-page reveal"><p>See where the work was applied</p><a href="/industry-experience/">Industry Experience <span>→</span></a></section>
+<section class="next-page reveal"><p>Read the research record</p><a href="/publications/">Publications <span>→</span></a></section>
